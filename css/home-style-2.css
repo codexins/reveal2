@@ -6,8 +6,6 @@
 
 */
 
-
-
 /******************************
 
 INDEX:
@@ -20,6 +18,13 @@ INDEX:
 	Primary Font:	font-family: 'Poppins', sans-serif;
 	Secondary Font: font-family: 'Lato', sans-serif;
 	others-family: 	'Roboto', sans-serif;
+
+	hover color :#23dac9 ;
+	text-color: #fff ;
+	title color #252525  ;
+	bg img overly color #05131c 85%
+	image hover overly : #23dac9;
+
 */
 
 
@@ -36,18 +41,69 @@ body {
 	background: #fff;
 }
 
-section {
-	margin-top:40px;
-	margin-bottom:40px;
-}
-
 h2 {
 	font-family: 'Lato', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
 	margin-top: 0;
 }
+.pad-50{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 0;
+	margin-bottom: 0 ;
+}
+.mrg-50{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.mrg-t-50{
+		margin-top: 50px;
+}
+.pad-t-50{
+	padding-top: 50px;
+}
+.pad-b-50{
+	padding-bottom: 50px;
+}
+.story-menu {
+    width: 33.33%;
+    float: right;
+}
+.story-content{
+	float: left;
+	width: 66.66% ;
+}
+.home2-slider-text {
+    color: #fff;
+}
+.header{
+	position: relative;
 
-hr {
-	border-color: #ddd;
+}
+.navbar{
+		z-index: 999;
+}
+.slider{
+	height: 100vh;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.slider-item {
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+}
+#project{
+	width: 100%;
+}
+.portfolio-rv2 img{
+	max-width: 100%;
 }
