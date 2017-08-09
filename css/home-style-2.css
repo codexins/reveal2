@@ -1,0 +1,53 @@
+/*
+	Template Name: Reveal
+	Author: ThemeItems
+	Description: One Page responsive Portfolio Template
+	Version: 1.0
+
+*/
+
+
+
+/******************************
+
+INDEX:
+	000 - General Typography
+
+
+******************************/
+
+/*
+	Primary Font:	font-family: 'Poppins', sans-serif;
+	Secondary Font: font-family: 'Lato', sans-serif;
+	others-family: 	'Roboto', sans-serif;
+*/
+
+
+/***********************************
+	000 - General Typography
+***********************************/
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color:#707070;
+	position: relative;
+	background: #fff;
+}
+
+section {
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+hr {
+	border-color: #ddd;
+}
