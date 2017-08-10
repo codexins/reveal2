@@ -2,6 +2,9 @@
 	header {
 		min-height: 650px;
 	}
+	.header.rv2{
+		min-height: auto ;
+	}
 } /*end of (min-width: 1200px)*/
 
 

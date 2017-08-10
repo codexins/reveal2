@@ -41,7 +41,7 @@
 	-->
 	<!--  Site Loader finished -->
 	<!-- header section start -->
-	<header class="header fill-screen">
+	<header class="header fill-screen rv2">
 		<nav class="navbar" data-spy="affix" data-offset-top="150">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -52,26 +52,54 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="http://themeitems.com/tf/reveal-preview/">ReVeal</a>
+					<a class="navbar-brand" href="http://themeitems.com/tf/reveal-preview/"><img src="rev-2-img/logo.png" alt=""></a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="reveal-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right main-menu">
-						<li><a href="#about">About</a></li>
-						<li><a href="#services">Service</a></li>
+						<li><a href=".header">home</a></li>
+						<li><a href="#story">Abouth</a></li>
+						<li><a href="#services">Services</a></li>
 						<li><a href="#events">Events</a></li>
-						<li><a href="#team">Team</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#testimonials">Testimonials</a></li>
 						<li><a href="#blog">Blog</a></li>
 						<li><a href="#location">Contact</a></li>
+						<li><div class="search-icon" href="#"><i class="fa fa-search" aria-hidden="true"></i></div></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav> <!-- end of nav -->
 		<!-- slider section  -->
-		<div class="slider">
+		<div class="slider owl-carousel arrow-middle">
+			<div class="slider-item" style="background:url(rev-2-img/Showcase.jpg);">
+				<!-- slider caption  -->
+				<div class="slider-text">
+					<div class="container ">
+						<div class="row ">
+							<div class="col-sm-6">
+								<h3>WELCOME TO REVEAL</h3>
+								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
+								<a href="#" class="btn-rv btn-white btn-radius">Know more</a>
+							</div>	
+						</div>	
+					</div>	
+				</div> <!-- end caption -->
+			</div>
+			<div class="slider-item" style="background:url(rev-2-img/Showcase.jpg);">
+				<!-- slider caption  -->
+				<div class="slider-text">
+					<div class="container ">
+						<div class="row ">
+							<div class="col-sm-6">
+								<h3>WELCOME TO REVEAL</h3>
+								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
+								<a href="#" class="btn-btn-primary ">Know more</a>
+							</div>	
+						</div>	
+					</div>	
+				</div> <!-- end caption -->
+			</div>
 			<div class="slider-item" style="background:url(rev-2-img/Showcase.jpg);">
 				<!-- slider caption  -->
 				<div class="slider-text">
@@ -879,10 +907,8 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<!-- google map api and gmaps JS
 	============================================ -->
-	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck"></script> -->
-	<!-- <script src="js/gmaps.js"></script> -->
 	<script>
-		function myMap() {
+		function mapoption() {
 			var mapProp= {
 			    center:new google.maps.LatLng(51.508742,-0.120850),
 			    zoom:18,
@@ -970,7 +996,7 @@
 			var map=new google.maps.Map(document.getElementById("map2"),mapProp);
 		}
 	</script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck&callback=myMap"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck&callback=mapoption"></script>
 	<!-- main JS
 	============================================ -->
 	<script src="js/main.js"></script>

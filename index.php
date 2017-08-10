@@ -1009,6 +1009,7 @@
 	============================================ -->
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwmX0AxGKsDBcmS7UCzzg-iME6hHS1H2w"></script>
 	<script src="js/gmaps.js"></script>
+	<script src="js/gmap-coustom.js"></script>
 
 	<!-- main JS
 	============================================ -->

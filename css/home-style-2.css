@@ -11,6 +11,7 @@
 INDEX:
 	000 - General Typography section
 	001 - header section
+		001.1 slider 
 	002 - featured section
 	003 - story section
 	004 - counter v2 section
@@ -96,14 +97,17 @@ h2.primary-title.rv2 {
 img{
 	max-width: 100%;
 }
-
+a:hover,a:focus,
+a {outline:0px solid;text-decoration: none;}
 .pad-50{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin-top: 0;
 	margin-bottom: 0 ;
 }
-
+a:focus{
+	color: #606060 ;
+}
 .mrg-50{
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -120,11 +124,35 @@ img{
 .pad-b-50{
 	padding-bottom: 50px;
 }
+.btn-rv {
+    padding: 11px 25px;
+    overflow: hidden;
+    display: inline-block;
+}
+.btn-white{
+	background: #fff ;
+	color: #606060 ;
+}
+
+.btn-white:hover{
+	background: #606060;
+	color: #fff ;
+}
+
+
+.btn-radius{
+	    border-radius: 5px;
+}
 /***********************************
 	001 - header section
 
 ***********************************/
-
+header.rv2{
+	background: transparent;
+}
+.header.rv2 .navbar-brand {
+    padding: 0;
+}
 .home2-slider-text {
     color: #fff;
 }
@@ -136,29 +164,110 @@ img{
 .navbar{
 		z-index: 999;
 }
+.header.rv2 nav.affix-top {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.header.rv2 .main-menu li a{
+	position: relative;
+	transition: 0.3s ;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+.header.rv2  .main-menu li.active a,
+.header.rv2 .main-menu li a:hover {
+    color: #23dac9;
+    border-bottom: 0px solid transparent;
+}
+.header.rv2 .main-menu li .search-icon{
+	color: #fff ;
+	padding-top: 15px;
+	cursor: pointer;
+}
+.header.rv2 .main-menu li a:not(.search-icon):after{
+	content: "";
+	width: 16px;
+	height: 2px;
+	background: #23dac9;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+.header.rv2 .main-menu li a:hover:after{
+	opacity: 1 ;
+	visibility: visible;
+}	
+/*******************
+001.1 slider
+*******************/
 
 .slider{
-	height: 100vh;
 	position: absolute;
 	width: 100%;
-	height: 100%;
 	left: 0;
 	top: 0;
 }
 
 .slider-item {
     display: block;
-    height: 100%;
     width: 100%;
     z-index: 1;
     background-size: cover !important;
     background-position: center !important;
     position: relative;
 }
+/*.slider-item:after,*/
+.slider-item:after{
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 50%;
+	top: 0;
+	bottom: 0;
+	background: -webkit-gradient(linear, left top,right top, from(#1d1f2f), to(transparent));
+	background: -webkit-linear-gradient(left, #1d1f2f, transparent);
+	background: -o-linear-gradient(left, #1d1f2f, transparent);
+	background: linear-gradient(to right, #1d1f2f, transparent);
+	z-index: -1;
+}
+/*.arrow-middle .owl-nav {
 
-
-
-
+}*/
+.arrow-middle .owl-prev,
+.arrow-middle .owl-next {
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    width: 40px;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 40px;
+}
+.arrow-middle .owl-prev{
+	left: 30px;
+}
+.arrow-middle .owl-next{
+	right: 30px;
+}
+.slider-text h3 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 32px;
+}
+.slider-text p {
+    margin-bottom: 40px;
+    display: block;
+    overflow: hidden;
+}
 /***********************************
 	002 - featured section
 
