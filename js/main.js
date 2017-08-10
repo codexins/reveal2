@@ -1,6 +1,9 @@
 $(function() {
 	"use strict";
 
+
+
+
 	/*--------------------------------------------------------------
 	Header full screen background image
     ---------------------------------------------------------------- */
@@ -55,6 +58,23 @@ $(function() {
 	  itemsTablet : [767,5],
 	  itemsTabletSmall : [599,4],
 	  itemsMobile : [420, 3]
+
+	});
+		/*--------------------------------------------------------------
+	client carouel
+	---------------------------------------------------------------- */
+
+	$("#client-carousel-rv2").owlCarousel({
+
+		autoPlay: false, //Set AutoPlay to 3 seconds
+		navigation: false,
+		pagination: false,
+		items : 5,
+		itemsDesktop : [1199,5],
+		itemsDesktopSmall : [991,5],
+		itemsTablet : [767,5],
+		itemsTabletSmall : [599,4],
+		itemsMobile : [420, 3]
 
 	});
 
@@ -194,7 +214,6 @@ $(function() {
     /*--------------------------------------------------------------
 	Google Map Customization
     ---------------------------------------------------------------- */
-
 (function(){
 
 	var map;
@@ -270,9 +289,9 @@ $(function() {
 	});
 
 	map.setStyle("map_style");
+
+
+
+
 }());
-
-
-
-
-
+// 

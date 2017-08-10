@@ -47,6 +47,9 @@ h2 {
 	font-weight: bold;
 	margin-top: 0;
 }
+img{
+	max-width: 100%;
+}
 .pad-50{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -104,6 +107,26 @@ h2 {
 #project{
 	width: 100%;
 }
-.portfolio-rv2 img{
-	max-width: 100%;
+
+.item{
+	text-align: center;
+}
+
+#location .contact-form {
+    padding-right: 0;
+    width: 535px;
+}
+#map2 {
+    position: relative;
+}
+
+#map2, 
+.contact-form-wrapper-rv2 {
+    height: 550px;
+}
+#location.location-rv2 .contact-form {
+    width: 535px;
+}
+#location.location-rv2 input {
+    padding: 24px 22px;
 }

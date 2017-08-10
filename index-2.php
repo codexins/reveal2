@@ -584,7 +584,104 @@
 		</div> <!-- end of container -->
 	</section> <!-- end of portfolio -->
 	<div class="clearfix"></div>
-	
+	<div id="clients-rv2" class="clients">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="client-carousel-rv2" class="owl-carousel">
+						<div class="item">
+							<a href=""><img src="images/clients/client-1.png" alt=""></a>
+						</div>
+						<div class="item">
+							<a href=""><img src="images/clients/client-2.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="images/clients/client-3.png" alt=""></a>
+						</div>
+						<div class="item">
+							<a href=""><img src="images/clients/client-4.png" alt=""></a>
+						</div>
+						<div class="item">
+							<a href=""><img src="images/clients/client-5.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="images/clients/client-6.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="images/clients/client-1.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="images/clients/client-2.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="images/clients/client-3.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="images/clients/client-4.png" alt=""></a>
+						</div>
+					</div>				
+				</div> <!-- end of col -->
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div> <!-- end of clients -->
+	<section id="location" class="location-rv2 animated">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 location-map">
+					<div id="map2">
+					</div><!--/#map-->
+				</div>
+				<div class="col-sm-6 contact-form-wrapper-rv2">
+					<form id="contact-form" class="contact-form" action="sendemail.php" method="post">	
+						<div class="row">
+						  <div class="form-group col-sm-6">
+						    <label for="name" class="sr-only">Name</label>
+						    <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required>
+						  </div>
+						  <div class="form-group col-sm-6">
+						    <label for="exampleInputEmail1" class="sr-only">Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email*" required>
+						  </div>
+						  <div class="form-group col-sm-12">
+						    <label for="subject" class="sr-only">Subject</label>
+						    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*" required>
+						  </div>
+
+						  <div class="form-group col-sm-12">
+							<textarea class="form-control" name="message" rows="3" placeholder="Your Message*" required></textarea>
+						  </div>
+							<div class="form-group col-sm-12">
+								<input type="submit" class="form-control btn" value="Submit">
+							</div>
+						</div>	
+					 </form> 	
+				</div> <!-- end of col -->
+			</div> <!-- end of row -->
+		</div> <!-- end of container-fluid -->
+	</section> <!-- end of location -->
+	<section class="letest-post">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="primary-title-rv2">OUR STORY </h2>
+					<h4 class="secondary-title-rv2">For the next generation of big businesses.</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="post-one">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!-- Go to Top Button at right bottom of the window screen -->
 	<div id="toTop" style="">
 		<i class="fa fa-chevron-up"></i>
@@ -635,9 +732,98 @@
 
 	<!-- google map api and gmaps JS
 	============================================ -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck"></script>
-	<script src="js/gmaps.js"></script>
-
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck"></script> -->
+	<!-- <script src="js/gmaps.js"></script> -->
+	<script>
+		function myMap() {
+			var mapProp= {
+			    center:new google.maps.LatLng(51.508742,-0.120850),
+			    zoom:18,
+			    styles: [
+	            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+	            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+	            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+	            {
+	              featureType: 'administrative.locality',
+	              elementType: 'labels.text.fill',
+	              stylers: [{color: '#d59563'}]
+	            },
+	            {
+	              featureType: 'poi',
+	              elementType: 'labels.text.fill',
+	              stylers: [{color: '#d59563'}]
+	            },
+	            {
+	              featureType: 'poi.park',
+	              elementType: 'geometry',
+	              stylers: [{color: '#263c3f'}]
+	            },
+	            {
+	              featureType: 'poi.park',
+	              elementType: 'labels.text.fill',
+	              stylers: [{color: '#6b9a76'}]
+	            },
+	            {
+	              featureType: 'road',
+	              elementType: 'geometry',
+	              stylers: [{color: '#38414e'}]
+	            },
+	            {
+	              featureType: 'road',
+	              elementType: 'geometry.stroke',
+	              stylers: [{color: '#212a37'}]
+	            },
+	            {
+	              featureType: 'road',
+	              elementType: 'labels.text.fill',
+	              stylers: [{color: '#9ca5b3'}]
+	            },
+	            {
+	              featureType: 'road.highway',
+	              elementType: 'geometry',
+	              stylers: [{color: '#746855'}]
+	            },
+	            {
+	              featureType: 'road.highway',
+	              elementType: 'geometry.stroke',
+	              stylers: [{color: '#1f2835'}]
+	            },
+	            {
+	              featureType: 'road.highway',
+	              elementType: 'labels.text.fill',
+	              stylers: [{color: '#f3d19c'}]
+	            },
+	            {
+	              featureType: 'transit',
+	              elementType: 'geometry',
+	              stylers: [{color: '#2f3948'}]
+	            },
+	            {
+	              featureType: 'transit.station',
+	              elementType: 'labels.text.fill',
+	              stylers: [{color: '#d59563'}]
+	            },
+	            {
+	              featureType: 'water',
+	              elementType: 'geometry',
+	              stylers: [{color: '#17263c'}]
+	            },
+	            {
+	              featureType: 'water',
+	              elementType: 'labels.text.fill',
+	              stylers: [{color: '#515c6d'}]
+	            },
+	            {
+	              featureType: 'water',
+	              elementType: 'labels.text.stroke',
+	              stylers: [{color: '#17263c'}]
+	            }
+	          ]
+			};
+			var map=new google.maps.Map(document.getElementById("map2"),mapProp);
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck&callback=myMap"></script>
 	<!-- main JS
 	============================================ -->
 	<script src="js/main.js"></script>
