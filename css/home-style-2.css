@@ -72,19 +72,15 @@ h6 {
 	font-size: 15px;
 }
 
-
-
 h2.primary-title.rv2 {
 	font-size: 40px;
 	font-weight: bold;
 }
-<<<<<<< HEAD
+
 img{
 	max-width: 100%;
 }
-=======
 
->>>>>>> 897cc296518cbe03f1e483e27585e9c46ec04025
 .pad-50{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -154,14 +150,8 @@ img{
 	width: 100%;
 }
 
-<<<<<<< HEAD
 .item{
 	text-align: center;
-}
-
-#location .contact-form {
-    padding-right: 0;
-    width: 535px;
 }
 #map2 {
     position: relative;
@@ -176,8 +166,11 @@ img{
 }
 #location.location-rv2 input {
     padding: 24px 22px;
-=======
+}
 .portfolio-rv2 img{
 	max-width: 100%;
->>>>>>> 897cc296518cbe03f1e483e27585e9c46ec04025
+}
+/*footer */
+footer.footer {
+    background: #161616;
 }

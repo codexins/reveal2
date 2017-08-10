@@ -76,13 +76,14 @@
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav> <!-- end of nav -->
+
 		<div class="slider">
 			<div class="slider-item" style="background:url(rev-2-img/Showcase.jpg);">
 				<div class="slider-text">
 					<div class="container ">
 						<div class="row ">
 							<div class="col-sm-6">
-								<h3>WELCOME TO REVEAL</h2>
+								<h3>WELCOME TO REVEAL</h3>
 								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
 								<a href="#" class="btn-btn-primary ">Know more</a>
 							</div>	
@@ -90,7 +91,7 @@
 					</div>	
 				</div>
 			</div>
-		</div>
+		</div> <!-- slider caption  -->
 	</header>  <!-- end of header -->
 	<div class="clearfix"></div>
 
@@ -118,8 +119,8 @@
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
 					</div>
 				</div>
-			</div>
-		</div>
+			</div>  <!-- end of row -->
+		</div> <!-- end of container -->
 	</section> <!-- end of section #featured -->
 	<div class="clearfix"></div>
 
@@ -193,7 +194,7 @@
 						<img src="rev-2-img/girl.png" alt="">
 					</div>
 				</div> <!-- end of col-sm-4 -->
-			</div>
+			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
 
@@ -229,16 +230,15 @@
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of counter_rv2 -->
-
 	<div class="clearfix"></div>
-
 	<section id="services">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2 class="primary-title-rv2">BEST Services</h2>
-					<h4 class="secondary-title-rv2">This is the Power of the Nerv2rk</h4>
-				</div>
+					<h2 class="primary-title rv2">BEST Services</h2>
+					<h4 class="secondary-title rv2">This is the Power of the Nerv2rk</h4>
+				</div>  <!-- end of col-sm-12 -->
+				<div class="clearfix"></div>
 				<div class="col-sm-4">
 					<div class="service-item">
 						<div class="media">
@@ -318,20 +318,18 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
 	</section> <!-- end of service -->
-
 	<div class="clearfix"></div>
-
 	<section id="team" class="team">
 		<div class="container">
 			<div class="row">
-				
-				<h2 class="primary-title-rv2">Expert Team</h2>
-				<h4 class="secondary-title-rv2">For the next generation of big businesses.</h4>
-			</div>
-			<div class="row">	
+				<div class="col-sm-12">
+					<h2 class="primary-title rv2">Expert Team</h2>
+					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+				</div>  <!-- end of col-sm-12 -->
+				<div class="clearfix"></div>
 				<div class="col-sm-3">
 					<div class="single-team">
 						<img src="images/team/matthew.jpg" alt="Team" class="img-responsive" />
@@ -349,7 +347,6 @@
 						<p>Ruby Expert</p>
 					</div>
 				</div>
-
 				<div class="col-sm-3">
 					<div class="single-team">
 						<img src="images/team/emma.jpg" alt="Team" class="img-responsive" />
@@ -367,7 +364,6 @@
 						<p>Python Specialist</p>
 					</div>
 				</div>
-
 				<div class="col-sm-3">
 					<div class="single-team">
 						<img src="images/team/michelle.jpg" alt="Team" class="img-responsive" />
@@ -385,7 +381,6 @@
 						<p>PHP Developer</p>
 					</div>
 				</div>
-
 				<div class="col-sm-3">
 					<div class="single-team">
 						<img src="images/team/christopher.jpg" alt="Team" class="img-responsive" />
@@ -403,18 +398,18 @@
 						<p>Java Expert</p>
 					</div>
 				</div>
-
-			</div>
-		</div>
-	</section>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
 	<div class="clearfix"></div>
 	<section id="events" class="Events">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2 class="primary-title-rv2">Events </h2>
-					<h4 class="secondary-title-rv2">This is the Power of the Nerv2rk</h4>
-				</div>
+					<h2 class="primary-title rv2">Events </h2>
+					<h4 class="secondary-title rv2">This is the Power of the Nerv2rk</h4>
+				</div> <!-- end col-sm-12 -->	
+				<div class="cleasrfix"></div>
 				<div class="col-sm-6">
 					<div class="single-event">
 						<img src="rev-2-img/Event-left.jpg" alt="">
@@ -443,16 +438,16 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
 	<div class="clearfix"></div>
 	<section id="feedback">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2 class="primary-title-rv2">Client Feedback</h2>
-					<h4 class="secondary-title-rv2">For the next generation of big businesses.</h4>
+					<h2 class="primary-title rv2">Client Feedback</h2>
+					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 				</div>
 				<div class="col-sm-6">
 					<div class="client">
@@ -478,9 +473,9 @@
 					 		</p>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
 	<section class="cta-button-rv2">
 		<h3>It Does More. It Costs Less. It’s that Simple.</h3>
 		<a href="#" class="btn pull-right">Button</a>
@@ -591,9 +586,9 @@
 						</a>
 					</div>
 				</div> <!-- end of portfolio-wrapper -->
-			</div>
+			</div> <!-- end of row -->
 		</div> <!-- end of container -->
-	</section> <!-- end of portfolio -->
+	</section> <!-- end of section -->
 	<div class="clearfix"></div>
 	<div id="clients-rv2" class="clients">
 		<div class="container-fluid">
@@ -601,40 +596,26 @@
 				<div class="col-xs-12">
 					<div id="client-carousel-rv2" class="owl-carousel">
 						<div class="item">
-							<a href=""><img src="images/clients/client-1.png" alt=""></a>
+							<a href=""><img src="rev-2-img/Company-logo-1.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href=""><img src="images/clients/client-2.png" alt=""></a>
-						</div>
-
-						<div class="item">
-							<a href=""><img src="images/clients/client-3.png" alt=""></a>
-						</div>
-						<div class="item">
-							<a href=""><img src="images/clients/client-4.png" alt=""></a>
-						</div>
-						<div class="item">
-							<a href=""><img src="images/clients/client-5.png" alt=""></a>
+							<a href=""><img src="rev-2-img/Company-logo-2.png" alt=""></a>
 						</div>
 
 						<div class="item">
-							<a href=""><img src="images/clients/client-6.png" alt=""></a>
+							<a href=""><img src="rev-2-img/Company-logo-3.png" alt=""></a>
 						</div>
 
 						<div class="item">
-							<a href=""><img src="images/clients/client-1.png" alt=""></a>
+							<a href=""><img src="rev-2-img/Company-logo-4.png" alt=""></a>
 						</div>
 
 						<div class="item">
-							<a href=""><img src="images/clients/client-2.png" alt=""></a>
+							<a href=""><img src="rev-2-img/Company-logo-5.png" alt=""></a>
 						</div>
 
 						<div class="item">
-							<a href=""><img src="images/clients/client-3.png" alt=""></a>
-						</div>
-
-						<div class="item">
-							<a href=""><img src="images/clients/client-4.png" alt=""></a>
+							<a href=""><img src="rev-2-img/Company-logo-3.png" alt=""></a>
 						</div>
 					</div>				
 				</div> <!-- end of col -->
@@ -680,67 +661,184 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2 class="primary-title-rv2">OUR STORY </h2>
-					<h4 class="secondary-title-rv2">For the next generation of big businesses.</h4>
+					<h2 class="primary-title rv2">LATEST POST </h2>
+					<h4 class="secondary-title rv2">This is the Power of the Network</h4>
 				</div>
-			</div>
+			</div><!-- end of row -->
 			<div class="row">
 				<div class="col-sm-4">
-					<div class="post-one">
-						
+					<div class="single-post">
+						<img src="rev-2-img/Latest-post-1.jpg" alt="">
+						<h3>Let’s Make Things Better.</h3>
+						<p>
+							<ul>
+								<li><i> </i>  8:00 AM - 5:00 PM  </li>
+								<li><i> </i>    LONDON, UK  </li>
+								<li><i> </i>   08/07/17</li>
+							</ul>
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
 					</div>
 				</div>
+				<div class="col-sm-4">
+					<div class="single-post">
+						<img src="rev-2-img/Latest-post-2.jpg" alt="">
+						<h3>Let’s Make Things Better.</h3>
+						<p>
+							<ul>
+								<li><i> </i>  8:00 AM - 5:00 PM  </li>
+								<li><i> </i>    LONDON, UK  </li>
+								<li><i> </i>   08/07/17</li>
+							</ul>
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="single-post">
+						<img src="rev-2-img/Latest-post-3.jpg" alt="">
+						<h3>Let’s Make Things Better.</h3>
+						<p>
+							<ul>
+								<li><i> </i>  8:00 AM - 5:00 PM  </li>
+								<li><i> </i>    LONDON, UK  </li>
+								<li><i> </i>   08/07/17</li>
+							</ul>
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
+	<!-- lewsletter -->
+	<section class="newsletter">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="primary-title rv2">LATEST POST </h2>
+					<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+				</div>
+				<div class="col-sm-12">
+					<div class="newsletter-form">
+						<form>
+							<input type="text" class="newsletter-field" placeholder="yourdomain@domain.com">
+							<button type="submit" class="newsletter-button">--></button>
+						</form>
+					</div>
+				</div>
+			</div> <!-- end of row	 -->
+		</div> <!-- end of container	 -->
+	</section> <!-- end of section	 -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="widget">
+						<img  class="footer-logo" src="rev-2-img/logo.png" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis eum, illo corporis nemo repudiandae sed libero vero natus labore autem sequi alias, at similique mollitia totam eius sint incidunt debitis.</p>
+						<p>01798861231</p>
+						<p>yourdomain@domain.con</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="footer-center">
+						<p class="widget-title">Blog</p>
+							<div class="media">
+								<a class="media-left" href="#">
+									<img class="media-object" src="images/footer/1.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipiscing</h4>
+									<p>Jan 9, 2016</p>
+								</div>
+							</div>
+
+							<div class="media">
+								<a class="media-left" href="#">
+									<img class="media-object" src="images/footer/2.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Consectetur adipiscing elit, sed do eiusmod tempor</h4>
+									<p>Jan 9, 2016</p>
+								</div>
+							</div>
+
+							<div class="media">
+								<a class="media-left" href="#">
+									<img class="media-object" src="images/footer/3.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Sed do eiusmod tempor incididunt ut labore</h4>
+									<p>Jan 9, 2016</p>
+								</div>
+							</div>
+					</div> <!-- end of footer-center -->
+				</div>
+				<div class="col-sm-3">
+					<div class="information">
+						<p class="widget-title">information</p>
+						<ul>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Investor Relations</a></li>
+							<li><a href="#">Press Releases</a></li>
+							<li><a href="#">Shop with Points</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="footer-right">
+						<p class="widget-title">Instagrem</p>
+						<div class="instagram-images">
+							<a href=""><img src="images/instagram/1.jpg" alt=""><div class="hoverable"></div></a>
+							<a href=""><img src="images/instagram/2.jpg" alt=""><div class="hoverable"></div></a>
+							<a href=""><img src="images/instagram/3.jpg" alt=""><div class="hoverable"></div></a>
+							<a href=""><img src="images/instagram/4.jpg" alt=""><div class="hoverable"></div></a>
+							<a href=""><img src="images/instagram/5.jpg" alt=""><div class="hoverable"></div></a>
+							<a href=""><img src="images/instagram/6.jpg" alt=""><div class="hoverable"></div></a>
+						</div>
+						<a href="" class="more"><i>View More photos</i></a>
+					</div> <!-- end of footer-right -->
+				</div>
+			</div> <!-- end row  -->
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center copyright">Copyright @2017 Ddesign by <a href="http://www.themeitems.com" target="_blank">ThemeItems</a> .All Rights Reserved</p>
+				</div>
 			</div>
-		</div>
-	</section>
+		</div><!--  end container --> 
+	</footer><!-- end footer --> 
 	<!-- Go to Top Button at right bottom of the window screen -->
 	<div id="toTop" style="">
 		<i class="fa fa-chevron-up"></i>
-	 </div>
+	</div>
 	 <!-- Go to Top Button finished-->
-
-
-	
-<!-- 		<div class="container">
-			<div class="row">
-				
-			</div>
-		</div>
-		 -->
 	<!-- jquery
 	============================================ -->
 	<script src="js/jquery.min.js"></script>
-
 	<!-- bootstrap JS
 	============================================ -->
 	<script src="js/bootstrap.min.js"></script>
-
 	<!-- Easing JS
 	============================================ -->
 	<script src="js/jquery.easing.1.3.js"></script>
-
     <!-- counterup JS
 	============================================ -->
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/jquery.counterup.min.js"></script>
-
 	<!-- owl JS
 	============================================ -->
 	<script src="js/owl.carousel.min.js"></script>
-	
 	<!-- Isotope JS
 	============================================ -->
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/isotope.pkgd.min.js"></script>
-
 	<!-- Parallex JS
 	============================================ -->
 	<script src="js/parallax.js"></script>
-
 	<!-- Magnific Pop up JS
 	============================================ -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
-
 	<!-- google map api and gmaps JS
 	============================================ -->
 	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck"></script> -->
