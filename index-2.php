@@ -7,46 +7,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="keywords" content="Bootstrap 3, Template, Theme, Responsive, Portfolio, Business, One Page, HTML5, Agency">
 	<title>ReVeal - Responsive One Page Portfolio Bootstrap Theme</title>
-
 	<!-- favicon
 	============================================ -->
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
 	<!-- Google Fonts
 	============================================ -->	
 	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster%7CMontserrat:400,700%7CRoboto:400,700" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css?family=Lato%7CPoppins%7CRoboto" rel="stylesheet">
-
-
 	<!--[if IE]>
 		<link rel="stylesheet" type="text/css" href="css/ie.css" />
 	<![endif]-->
 	<!-- font awesome  -->
 	<link rel="stylesheet" href="css/font-awesome.min.css" type='text/css'>
-
 	<!-- Master stylesheet
 	============================================ -->
 	<link rel="stylesheet" href="master.css" type='text/css'>
 	<!-- home version 2 stylesheet
 	============================================ -->
 	<link rel="stylesheet" href="css/home-style-2.css" type='text/css'>
-
 </head>
 <body>
-
     <!--[if lt IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
 	<!--  Site Loader -->
-	<!-- <div id="loader">
-		<div class="cssload-container">
-			<div class="cssload-speeding-wheel"></div>
-		</div>
-	</div> -->
+	<!-- 
+		<div id="loader">
+			<div class="cssload-container">
+				<div class="cssload-speeding-wheel"></div>
+			</div>
+		</div> 
+	-->
 	<!--  Site Loader finished -->
-
-
+	<!-- header section start -->
 	<header class="header fill-screen">
 		<nav class="navbar" data-spy="affix" data-offset-top="150">
 			<div class="container">
@@ -76,9 +70,10 @@
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav> <!-- end of nav -->
-
+		<!-- slider section  -->
 		<div class="slider">
 			<div class="slider-item" style="background:url(rev-2-img/Showcase.jpg);">
+				<!-- slider caption  -->
 				<div class="slider-text">
 					<div class="container ">
 						<div class="row ">
@@ -89,15 +84,17 @@
 							</div>	
 						</div>	
 					</div>	
-				</div>
+				</div> <!-- end caption -->
 			</div>
-		</div> <!-- slider caption  -->
+		</div> <!-- end slider   -->
 	</header>  <!-- end of header -->
 	<div class="clearfix"></div>
 
+	<!-- featured section  000000 -->
 	<section id="featured" class="featured mrg-50">
 		<div class="container">
 			<div class="row">
+				<!-- single fetured			 -->
 				<div class="col-sm-4">
 					<div class="featured-item text-center">
 						<img src="rev-2-img/bulb.jpg">
@@ -105,6 +102,7 @@
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
 					</div>
 				</div>
+				<!-- single fetured				 -->
 				<div class="col-sm-4">
 					<div class="featured-item text-center">
 						<img src="rev-2-img/bulb.jpg">
@@ -112,6 +110,7 @@
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
 					</div>
 				</div>
+				<!-- single fetured				 -->
 				<div class="col-sm-4">
 					<div class="featured-item text-center">
 						<img src="rev-2-img/bulb.jpg">
@@ -124,9 +123,11 @@
 	</section> <!-- end of section #featured -->
 	<div class="clearfix"></div>
 
+	<!-- story section	start  -->
 	<section id="story" class="story mrg-50">
 		<div class="container">
 			<div class="row">
+				<!-- section title  -->
 				<div class="col-sm-12">
 					<h2 class="primary-title rv2">OUR STORY </h2>
 					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
@@ -197,8 +198,9 @@
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
-
 	<div class="clearfix"></div>
+
+	<!-- counter v2 start -->
 	<section id="counter_rv2" class="mrg-50">
 		<div class="container">
 			<div class="row">
@@ -231,9 +233,12 @@
 		</div> <!-- end of container -->
 	</section> <!-- end of counter_rv2 -->
 	<div class="clearfix"></div>
+
+	<!-- services secrtion  -->
 	<section id="services">
 		<div class="container">
 			<div class="row">
+				<!-- section title  -->
 				<div class="col-sm-12">
 					<h2 class="primary-title rv2">BEST Services</h2>
 					<h4 class="secondary-title rv2">This is the Power of the Nerv2rk</h4>
@@ -322,9 +327,12 @@
 		</div> <!-- end of container -->
 	</section> <!-- end of service -->
 	<div class="clearfix"></div>
+
+	<!-- team section -->
 	<section id="team" class="team">
 		<div class="container">
 			<div class="row">
+				<!-- section title  -->
 				<div class="col-sm-12">
 					<h2 class="primary-title rv2">Expert Team</h2>
 					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
@@ -400,11 +408,14 @@
 				</div>
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
-	</section> <!-- end of section -->
+	</section> <!-- end of team section -->
 	<div class="clearfix"></div>
+
+	<!-- event section  -->
 	<section id="events" class="Events">
 		<div class="container">
 			<div class="row">
+				<!-- section title  -->
 				<div class="col-sm-12">
 					<h2 class="primary-title rv2">Events </h2>
 					<h4 class="secondary-title rv2">This is the Power of the Nerv2rk</h4>
@@ -442,9 +453,12 @@
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
+
+	<!-- client fedback  -->
 	<section id="feedback">
 		<div class="container">
 			<div class="row">
+				<!-- section title  -->
 				<div class="col-sm-12">
 					<h2 class="primary-title rv2">Client Feedback</h2>
 					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
@@ -476,16 +490,25 @@
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
+	<div class="clearfix"></div>
+	
+	<!-- cta button  -->
 	<section class="cta-button-rv2">
 		<h3>It Does More. It Costs Less. It’s that Simple.</h3>
 		<a href="#" class="btn pull-right">Button</a>
-	</section>
+	</section><!--  cta section end  -->
 	<div class="clearfix"></div>
+
+	<!-- portfolio section  -->
 	<section id="portfolio" class="portfolios">
 		<div class="container">
+			
 			<div class="row">
-				<h3 class="primary-title text-center">What We Do</h3>
-				<h2 class="secondary-title text-center">Some Of Our Work</h2>
+				<!-- section title  -->
+				<div class="col-xs-12">
+					<h3 class="primary-title text-center">What We Do</h3>
+					<h2 class="secondary-title text-center">Some Of Our Work</h2>
+				</div>
 				<div class="col-xs-12">
 					<div class="portfolio-filter">
 						<ul class="list-inline">
@@ -590,6 +613,8 @@
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
+
+	<!-- client carosel  -->
 	<div id="clients-rv2" class="clients">
 		<div class="container-fluid">
 			<div class="row">
@@ -622,7 +647,10 @@
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</div> <!-- end of clients -->
-	<section id="location" class="location-rv2 animated">
+	<div class="clearfix"></div>
+
+	<!-- location google map and contact form  -->
+	<section id="location" class="location-rv2 ">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6 location-map">
@@ -656,10 +684,14 @@
 				</div> <!-- end of col -->
 			</div> <!-- end of row -->
 		</div> <!-- end of container-fluid -->
-	</section> <!-- end of location -->
+	</section> <<!-- location google map and contact form  -->
+	<div class="clearfix"></div>
+
+	<!-- letest post  -->
 	<section class="letest-post">
 		<div class="container">
 			<div class="row">
+				<!-- section title  -->
 				<div class="col-sm-12">
 					<h2 class="primary-title rv2">LATEST POST </h2>
 					<h4 class="secondary-title rv2">This is the Power of the Network</h4>
@@ -711,10 +743,13 @@
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
+	<div class="clearfix"></div>
+
 	<!-- lewsletter -->
 	<section class="newsletter">
 		<div class="container">
 			<div class="row">
+				<!-- section title  -->
 				<div class="col-sm-12">
 					<h2 class="primary-title rv2">LATEST POST </h2>
 					<h4 class="secondary-title rv2">This is the Power of the Network</h4>
@@ -730,6 +765,9 @@
 			</div> <!-- end of row	 -->
 		</div> <!-- end of container	 -->
 	</section> <!-- end of section	 -->
+	<div class="clearfix"></div>
+
+	<!-- footer section  -->
 	<footer class="footer">
 		<div class="container">
 			<div class="row">

@@ -9,7 +9,22 @@
 /******************************
 
 INDEX:
-	000 - General Typography
+	000 - General Typography section
+	001 - header section
+	002 - featured section
+	003 - story section
+	004 - counter v2 section
+	005 - services  section
+	006 - team section
+	007 - events section
+	008 - feedback section
+	009 - cta-button-rv2 section
+	010 - portfolio section
+	011 - clients section
+	012 - location section
+	013 - letest-post section
+	014 - newsletter section
+	015 - footer section
 
 
 ******************************/
@@ -30,6 +45,7 @@ INDEX:
 
 /***********************************
 	000 - General Typography
+
 ***********************************/
 
 body {
@@ -104,16 +120,10 @@ img{
 .pad-b-50{
 	padding-bottom: 50px;
 }
+/***********************************
+	001 - header section
 
-.story-menu {
-    width: 33.33%;
-    float: right;
-}
-
-.story-content{
-	float: left;
-	width: 66.66% ;
-}
+***********************************/
 
 .home2-slider-text {
     color: #fff;
@@ -146,13 +156,68 @@ img{
     position: relative;
 }
 
-#project{
-	width: 100%;
+
+
+
+/***********************************
+	002 - featured section
+
+***********************************/
+
+/***********************************
+	003 - story section
+
+***********************************/
+.story-menu {
+    width: 33.33%;
+    float: right;
 }
 
+.story-content{
+	float: left;
+	width: 66.66% ;
+}
+
+
+/***********************************
+	004 - counter v2 section
+
+***********************************/
+/***********************************
+	005 - services  section
+
+***********************************/
+/***********************************
+	006 - team section
+
+***********************************/
+/***********************************
+	007 - events section
+
+***********************************/
+/***********************************
+	008 - feedback section
+
+***********************************/
+/***********************************
+	009 - cta-button-rv2 section
+
+***********************************/
+/***********************************
+	010 - portfolio section
+
+***********************************/
+
+
+/***********************************	
+	011 - clients section
+***********************************/
 .item{
 	text-align: center;
 }
+/***********************************	
+	012 - location section
+***********************************/
 #map2 {
     position: relative;
 }
@@ -170,7 +235,16 @@ img{
 .portfolio-rv2 img{
 	max-width: 100%;
 }
-/*footer */
+/***********************************	
+	013 - letest-post section
+***********************************/
+/***********************************	
+	014 - newsletter section
+***********************************/
+/***********************************	
+	015 - footer section
+***********************************/
+
 footer.footer {
     background: #161616;
 }
