@@ -47,43 +47,53 @@ h2 {
 	font-weight: bold;
 	margin-top: 0;
 }
+
 .pad-50{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin-top: 0;
 	margin-bottom: 0 ;
 }
+
 .mrg-50{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
 .mrg-t-50{
 		margin-top: 50px;
 }
+
 .pad-t-50{
 	padding-top: 50px;
 }
+
 .pad-b-50{
 	padding-bottom: 50px;
 }
+
 .story-menu {
     width: 33.33%;
     float: right;
 }
+
 .story-content{
 	float: left;
 	width: 66.66% ;
 }
+
 .home2-slider-text {
     color: #fff;
 }
+
 .header{
 	position: relative;
-
 }
+
 .navbar{
 		z-index: 999;
 }
+
 .slider{
 	height: 100vh;
 	position: absolute;
@@ -92,6 +102,7 @@ h2 {
 	left: 0;
 	top: 0;
 }
+
 .slider-item {
     display: block;
     height: 100%;
@@ -101,9 +112,11 @@ h2 {
     background-position: center !important;
     position: relative;
 }
+
 #project{
 	width: 100%;
 }
+
 .portfolio-rv2 img{
 	max-width: 100%;
 }
