@@ -17,7 +17,7 @@ INDEX:
 /*
 	Primary Font:	font-family: 'Poppins', sans-serif;
 	Secondary Font: font-family: 'Lato', sans-serif;
-	others-family: 	'Roboto', sans-serif;
+	Tertiary Font: 	'Roboto', sans-serif;
 
 	hover color :#23dac9 ;
 	text-color: #fff ;
@@ -35,17 +35,48 @@ INDEX:
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 1.65em;
 	color:#707070;
 	position: relative;
 	background: #fff;
 }
 
-h2 {
+
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
+	margin-top:0;
+
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 21px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+
+
+h2.primary-title.rv2 {
 	font-size: 40px;
 	font-weight: bold;
-	margin-top: 0;
 }
 
 .pad-50{
