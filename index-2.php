@@ -93,25 +93,26 @@
 		</div>
 	</header>  <!-- end of header -->
 	<div class="clearfix"></div>
-	<section id="fuature" class="fuature mrg-50">
+
+	<section id="featured" class="featured mrg-50">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
-					<div class="fuature-item text-center">
+					<div class="featured-item text-center">
 						<img src="rev-2-img/bulb.jpg">
 						<h4>Creative team</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="fuature-item text-center">
+					<div class="featured-item text-center">
 						<img src="rev-2-img/bulb.jpg">
 						<h4>Creative team</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="fuature-item text-center">
+					<div class="featured-item text-center">
 						<img src="rev-2-img/bulb.jpg">
 						<h4>Creative team</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
@@ -119,15 +120,19 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> <!-- end of section #featured -->
 	<div class="clearfix"></div>
+
 	<section id="story" class="story mrg-50">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2 class="primary-title-rv2">OUR STORY </h2>
-					<h4 class="secondary-title-rv2">For the next generation of big businesses.</h4>
-				</div>
+					<h2 class="primary-title rv2">OUR STORY </h2>
+					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+				</div> <!-- end of col-sm-12-->
+
+				<div class="clearfix"></div>
+
 				<div class="col-sm-8">
 					<div class="story-wrap">
 						<div class="story-menu">
@@ -180,18 +185,20 @@
 								</div>
 							</div>
 						</div>
-					</div>		
-				</div>		
+					</div>	<!-- end of story-wrap	 -->
+				</div>	<!-- end of col-sm-8 -->
+
 				<div class="col-sm-4">
 					<div class="story-img">
 						<img src="rev-2-img/girl.png" alt="">
 					</div>
-				</div>	
+				</div> <!-- end of col-sm-4 -->
 			</div>
-		</div>
-	</section>
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
+
 	<div class="clearfix"></div>
-	<section id="counter-v2" class="mrg-50">
+	<section id="counter_rv2" class="mrg-50">
 		<div class="container">
 			<div class="row">
 
@@ -221,8 +228,10 @@
 				</div>
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
-	</section> <!-- end of services -->
+	</section> <!-- end of counter_rv2 -->
+
 	<div class="clearfix"></div>
+
 	<section id="services">
 		<div class="container">
 			<div class="row">
@@ -311,13 +320,15 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> <!-- end of service -->
+
 	<div class="clearfix"></div>
+
 	<section id="team" class="team">
 		<div class="container">
 			<div class="row">
 				
-				<h2 class="primary-title-rv2">EXPERT  TEAM</h2>
+				<h2 class="primary-title-rv2">Expert Team</h2>
 				<h4 class="secondary-title-rv2">For the next generation of big businesses.</h4>
 			</div>
 			<div class="row">	
