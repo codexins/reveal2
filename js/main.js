@@ -210,12 +210,14 @@ $(function() {
 
 	// full screen slider 
 
-  	var Height = $(window).height(); 
-	$(".slider-item").height(Height);
+	  	var Height = $(window).height(); 
+		$(".slider-item").height(Height);
+		$(".header.rv2").height(Height);
 
 	// full screen slider 
 
-	
+
+
 
 
 

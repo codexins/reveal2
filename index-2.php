@@ -13,7 +13,7 @@
 	<!-- Google Fonts
 	============================================ -->	
 	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster%7CMontserrat:400,700%7CRoboto:400,700" rel="stylesheet"> -->
-	<link href="https://fonts.googleapis.com/css?family=Lato%7CPoppins%7CRoboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato%7CPoppins:400,500%7CRoboto" rel="stylesheet">
 	<!--[if IE]>
 		<link rel="stylesheet" type="text/css" href="css/ie.css" />
 	<![endif]-->
@@ -41,7 +41,7 @@
 	-->
 	<!--  Site Loader finished -->
 	<!-- header section start -->
-	<header class="header fill-screen rv2">
+	<header class="header  rv2">
 		<nav class="navbar" data-spy="affix" data-offset-top="150">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -116,55 +116,53 @@
 			</div>
 		</div> <!-- end slider   -->
 	</header>  <!-- end of header -->
-	<div class="clearfix"></div>
-
 	<!-- featured section  000000 -->
-	<section id="featured" class="featured mrg-50">
+	<div id="featured" class="featured margin-0">
 		<div class="container">
 			<div class="row">
 				<!-- single fetured			 -->
 				<div class="col-sm-4">
 					<div class="featured-item text-center">
-						<img src="rev-2-img/bulb.jpg">
-						<h4>Creative team</h4>
+						<div class="rv2-icon-1 featured-icon"><i class="flaticon-light-bulb"></i></div>
+						<h4 class="title-3">Creative team</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
 					</div>
 				</div>
-				<!-- single fetured				 -->
+				<!-- single fetured			 -->
 				<div class="col-sm-4">
 					<div class="featured-item text-center">
-						<img src="rev-2-img/bulb.jpg">
-						<h4>Creative team</h4>
+						<div class="rv2-icon-1 featured-icon"><i class="flaticon-devices"></i></div>
+						<h4 class="title-3">web developer</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
 					</div>
 				</div>
-				<!-- single fetured				 -->
+				<!-- single fetured			 -->
 				<div class="col-sm-4">
 					<div class="featured-item text-center">
-						<img src="rev-2-img/bulb.jpg">
-						<h4>Creative team</h4>
+						<div class="rv2-icon-1 featured-icon"><i class="flaticon-time"></i></div>
+						<h4 class="title-3">24/7 support</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
 					</div>
 				</div>
 			</div>  <!-- end of row -->
 		</div> <!-- end of container -->
-	</section> <!-- end of section #featured -->
-	<div class="clearfix"></div>
+	</div> <!-- end of section #featured -->
+
 
 	<!-- story section	start  -->
-	<section id="story" class="story mrg-50">
+	<section id="story" class="story mrg-t-50">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
-				<div class="col-sm-12">
-					<h2 class="primary-title rv2">OUR STORY </h2>
-					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
-				</div> <!-- end of col-sm-12-->
-
-				<div class="clearfix"></div>
 
 				<div class="col-sm-8">
+					
 					<div class="story-wrap">
+						<div class="rv2-title">
+							<h2 class="primary-title rv2">OUR STORY </h2>
+							<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+						</div>
+						<div class="clearfix"></div>
 						<div class="story-menu">
 							  <!-- Nav tabs -->
 							  <ul class="" role="tablist">
@@ -203,7 +201,7 @@
 								</div>
 								<div role="tabpanel" class="tab-pane" id="bstp_certificate">
 									<p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
-									</p><p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
+									At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
 									</p>
 									<p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
 									</p>
@@ -216,6 +214,8 @@
 							</div>
 						</div>
 					</div>	<!-- end of story-wrap	 -->
+
+
 				</div>	<!-- end of col-sm-8 -->
 
 				<div class="col-sm-4">
@@ -229,32 +229,36 @@
 	<div class="clearfix"></div>
 
 	<!-- counter v2 start -->
-	<section id="counter_rv2" class="mrg-50">
+	<section id="counter_rv2" class="mrg-b-50 pad-50">
 		<div class="container">
 			<div class="row">
 
 				<div class="col-sm-3 ">
 					<div class="counter-item" >
-						<span class="counter">48</span>
-						<p>Web Apps Projects</p>
+						<div class="rv2-icon-1"><i class="flaticon-networking"></i></div>
+						<span class="counter">1987</span>
+						<h3 class="title-3">Web Apps Projects</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
 					<div class="counter-item" >
-						<span class="counter">132</span>
-						<p>Happy Clients</p>
+						<div class="rv2-icon-1"><i class="flaticon-cogwheel "></i></div>
+						<span class="counter">5490</span><span>+</span>
+						<h3 class="title-3">Happy Clients</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
 					<div class="counter-item" >
-						<span class="counter">18</span>
-						<p>Award Winner</p>
+						<div class="rv2-icon-1"><i class="flaticon-pencil"></i></div>
+						<span class="counter">100</span><span>%</span>
+						<h3 class="title-3">Award Winner</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
 					<div class="counter-item" >
-						<span class="counter">78</span>
-						<p>Cup of Coffee</p>
+						<div class="rv2-icon-1"><i class=" flaticon-team"></i></div>
+						<span class="counter">1000</span><span>+</span>
+						<h3 class="title-3">Cup of Coffee</h3>
 					</div>
 				</div>
 			</div> <!-- end of row -->
@@ -263,91 +267,70 @@
 	<div class="clearfix"></div>
 
 	<!-- services secrtion  -->
-	<section id="services">
+	<section id="services" class="mrg-50">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<h2 class="primary-title rv2">BEST Services</h2>
-					<h4 class="secondary-title rv2">This is the Power of the Nerv2rk</h4>
+					<div class="rv2-title center-block">
+						<h2 class="primary-title rv2">BEST Services </h2>
+						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="clearfix"></div>
-				<div class="col-sm-4">
-					<div class="service-item">
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-html5"></i>
-							</div>
-							<div class="media-body">
-							<h4 class="media-heading">HTML5</h4>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
-							</div>
+				<div class="col-sm-12">
+					<div class="service-item pad-50">
+						<div class="service-icon">
+							<img src="rev-2-img/11.jpg" alt="">
+						</div>
+						<div class="service-content">
+						<h4 class="title-3">WORDPRESS</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="service-item">
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-html5"></i>
-							</div>
-							<div class="media-body">
-							<h4 class="media-heading">HTML5</h4>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
-							</div>
+					<div class="service-item white-bg pad-50">
+						<div class="service-icon">
+							<img src="rev-2-img/12.png" alt="">
+						</div>
+						<div class="service-content">
+						<h4 class="title-3">LARAVEL</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="service-item">
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-html5"></i>
-							</div>
-							<div class="media-body">
-							<h4 class="media-heading">HTML5</h4>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
-							</div>
+					<div class="service-item pad-50">
+						<div class="service-icon">
+							<img src="rev-2-img/13.png" alt="">
+						</div>
+						<div class="service-content">
+						<h4 class="title-3">SEO Support</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-sm-4">
-					<div class="service-item">
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-html5"></i>
-							</div>
-							<div class="media-body">
-							<h4 class="media-heading">HTML5</h4>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
-							</div>
+					<div class="service-item white-bg pad-50">
+						<div class="service-icon">
+							<img src="rev-2-img/14.png" alt="">
+						</div>
+						<div class="service-content">
+						<h4 class="title-3">Target Strategy</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="service-item">
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-html5"></i>
-							</div>
-							<div class="media-body">
-							<h4 class="media-heading">HTML5</h4>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
-							</div>
+					<div class="service-item  pad-50">
+						<div class="service-icon">
+							<img src="rev-2-img/15.png" alt="">
+						</div>
+						<div class="service-content">
+						<h4 class="title-3">Email Marketing</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="service-item">
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-html5"></i>
-							</div>
-							<div class="media-body">
-							<h4 class="media-heading">HTML5</h4>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
-							</div>
+					<div class="service-item white-bg pad-50">
+						<div class="service-icon">
+							<img src="rev-2-img/16.png" alt="">
+						</div>
+						<div class="service-content">
+						<h4 class="title-3">JAVASCRIPT</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
 				</div>
@@ -357,13 +340,15 @@
 	<div class="clearfix"></div>
 
 	<!-- team section -->
-	<section id="team" class="team">
+	<section id="team" class="rv2 team mrg-50 pad-50">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<h2 class="primary-title rv2">Expert Team</h2>
-					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+					<div class="rv2-title center-block">
+						<h2 class="primary-title rv2">EXPERT  TEAM</h2>
+						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="clearfix"></div>
 				<div class="col-sm-3">
@@ -444,10 +429,13 @@
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
+				<!-- section title  -->
 				<div class="col-sm-12">
-					<h2 class="primary-title rv2">Events </h2>
-					<h4 class="secondary-title rv2">This is the Power of the Nerv2rk</h4>
-				</div> <!-- end col-sm-12 -->	
+					<div class="rv2-title center-block">
+						<h2 class="primary-title rv2">BEST Services </h2>
+						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
 				<div class="cleasrfix"></div>
 				<div class="col-sm-6">
 					<div class="single-event">
@@ -488,8 +476,11 @@
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<h2 class="primary-title rv2">Client Feedback</h2>
-					<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+					<div class="rv2-title center-block">
+						<h2 class="primary-title rv2">BEST Services </h2>
+						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
 				</div>
 				<div class="col-sm-6">
 					<div class="client">
@@ -533,10 +524,12 @@
 			
 			<div class="row">
 				<!-- section title  -->
-				<div class="col-xs-12">
-					<h3 class="primary-title text-center">What We Do</h3>
-					<h2 class="secondary-title text-center">Some Of Our Work</h2>
-				</div>
+				<div class="col-sm-12">
+					<div class="rv2-title center-block">
+						<h2 class="primary-title rv2">BEST Services </h2>
+						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
 				<div class="col-xs-12">
 					<div class="portfolio-filter">
 						<ul class="list-inline">
@@ -721,9 +714,11 @@
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<h2 class="primary-title rv2">LATEST POST </h2>
-					<h4 class="secondary-title rv2">This is the Power of the Network</h4>
-				</div>
+					<div class="rv2-title center-block">
+						<h2 class="primary-title rv2">BEST Services </h2>
+						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
 			</div><!-- end of row -->
 			<div class="row">
 				<div class="col-sm-4">
@@ -779,9 +774,11 @@
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<h2 class="primary-title rv2">LATEST POST </h2>
-					<h4 class="secondary-title rv2">This is the Power of the Network</h4>
-				</div>
+					<div class="rv2-title center-block">
+						<h2 class="primary-title rv2">BEST Services </h2>
+						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
 				<div class="col-sm-12">
 					<div class="newsletter-form">
 						<form>

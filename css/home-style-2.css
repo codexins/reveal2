@@ -41,6 +41,11 @@ INDEX:
 	bg img overly color #05131c 85%
 	image hover overly : #23dac9;
 
+
+	Flaticon icon font: Flaticon
+	Creation date: 11/08/2017 09:26
+
+
 */
 
 
@@ -51,7 +56,7 @@ INDEX:
 
 body {
 	font-family: 'Poppins', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 1.65em;
 	color:#707070;
 	position: relative;
@@ -88,17 +93,62 @@ h5 {
 h6 {
 	font-size: 15px;
 }
-
+/*title default style */
+.rv2-title {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 32px;
+}
+.rv2-title:before, .rv2-title:after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    top: 0;
+    z-index: 1;
+}
+.rv2-title:before {
+    width: 60px;
+    background: #23dac9;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.rv2-title:after {
+    width: 20px;
+    background: #000;
+    left: calc(50% + 10px);
+}
+.rv2-title .secondary-title.rv2:after{
+	display: none;
+}
 h2.primary-title.rv2 {
 	font-size: 40px;
-	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600 ;
+	color: #252525 ;
+	text-transform: uppercase;
 }
+.secondary-title.rv2{
+	margin-bottom: 60px;
+	color: #707070 ;
+	text-transform: initial;
+	font-size: 15px;
+}
+
+/*title default style end*/
 
 img{
 	max-width: 100%;
 }
 a:hover,a:focus,
-a {outline:0px solid;text-decoration: none;}
+a {
+	outline:0px solid;
+	text-decoration: none; 
+}
+a{
+	transition: 0.3s ;
+}
 .pad-50{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -108,6 +158,54 @@ a {outline:0px solid;text-decoration: none;}
 a:focus{
 	color: #606060 ;
 }
+
+/*
+Flaticon icon font: Flaticon
+Creation date: 11/08/2017 09:26
+*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/font-Flaticon/Flaticon.eot");
+  src: url("../fonts/font-Flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/font-Flaticon/Flaticon.woff") format("woff"),
+       url("../fonts/font-Flaticon/Flaticon.ttf") format("truetype"),
+       url("../fonts/font-Flaticon/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/font-Flaticon/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-networking:before { content: "\f100"; }
+.flaticon-cogwheel:before { content: "\f101"; }
+.flaticon-pencil:before { content: "\f102"; }
+.flaticon-team:before { content: "\f103"; }
+.flaticon-light-bulb:before { content: "\f104"; }
+.flaticon-devices:before { content: "\f105"; }
+.flaticon-time:before { content: "\f106"; }
+
+
+
+
+
+
+.margin-0{
+	margin: 0 ;
+}
 .mrg-50{
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -116,7 +214,13 @@ a:focus{
 .mrg-t-50{
 		margin-top: 50px;
 }
-
+.mrg-b-50{
+		margin-bottom: 50px;
+}
+.pad-50{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 .pad-t-50{
 	padding-top: 50px;
 }
@@ -124,10 +228,20 @@ a:focus{
 .pad-b-50{
 	padding-bottom: 50px;
 }
+.title-3{
+	color: #252525 ;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
 .btn-rv {
     padding: 11px 25px;
     overflow: hidden;
     display: inline-block;
+    transition: 0.3s ;
+    text-transform: uppercase;
 }
 .btn-white{
 	background: #fff ;
@@ -135,20 +249,52 @@ a:focus{
 }
 
 .btn-white:hover{
-	background: #606060;
+	background: #23dac9;
 	color: #fff ;
 }
 
-
 .btn-radius{
-	    border-radius: 5px;
+	border-radius: 5px;
 }
+
+/* icon font */
+
+.rv2-icon-1{
+    width: 60px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.rv2-icon-1 i{
+	display: block;
+}
+.rv2-icon-1 i:before{
+	margin: 0;
+    line-height: 40px;
+    font-size: 40px;
+    transition: 0.3s  ;
+}
+.white-bg{
+	background: #fff !important;
+}
+
 /***********************************
 	001 - header section
 
 ***********************************/
+header{
+	z-index: initial;
+}
 header.rv2{
 	background: transparent;
+
+}
+header .navbar.affix {
+    z-index: 99;
+}
+section{
+	margin: initial;
 }
 .header.rv2 .navbar-brand {
     padding: 0;
@@ -237,9 +383,9 @@ header.rv2{
 	background: linear-gradient(to right, #1d1f2f, transparent);
 	z-index: -1;
 }
-/*.arrow-middle .owl-nav {
-
-}*/
+.header.rv2 .slider-text {
+    top: 50%;
+}
 .arrow-middle .owl-prev,
 .arrow-middle .owl-next {
     position: absolute;
@@ -262,29 +408,96 @@ header.rv2{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 32px;
+    line-height: 100%;
 }
 .slider-text p {
     margin-bottom: 40px;
     display: block;
     overflow: hidden;
 }
+
 /***********************************
 	002 - featured section
 
 ***********************************/
+.featured {
+	position: relative;
+	z-index: 95;
+}
+.featured-item {
+    padding: 70px 45px 60px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.15);
+    background: #fff;
+    position: relative;
+    transition: 0.3s ;
+    top: -80px;
+}
+.featured-icon i:before {
+    color: #707070 ;
+}
+
+.featured-item:hover i:before {
+	color: #23dac9 ;
+}
+
+.featured-item:hover{
+    box-shadow: 0px 15px 60px -22px rgba(0,0,0,0.5)
+}
 
 /***********************************
 	003 - story section
 
 ***********************************/
+.story{
+	margin-top: 20px;
+}
+.story-menu ul{
+	list-style: none;
+}
+.story-menu ul li {
+	position: relative;
+	line-height: 30px;
+}
+.story-menu ul li:before{
+	position: absolute;
+	content: "";
+	left: -15px;
+	width: 10px;
+	height: 10px;
+	background: #707070;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 50%;
+	transition: 0.3s ;
+}
+.story-menu ul li.active:before,
+.story-menu ul li:hover:before{
+    background:  #23dac9;
+}
+.story-menu ul li a {
+    color: #707070;
+    font-weight: 500;
+}
+.story-menu ul li.active a,
+.story-menu ul li:hover a{
+    color: #23dac9;
+}
+.story-wrap .rv2-title {
+    width: 50%;
+    float: right;
+}
 .story-menu {
-    width: 33.33%;
+    width: 35%;
     float: right;
 }
 
 .story-content{
 	float: left;
-	width: 66.66% ;
+	width: 65% ;
+}
+.tab-content p:not(:last-child) {
+    margin-bottom: 35px;
 }
 
 
@@ -292,14 +505,143 @@ header.rv2{
 	004 - counter v2 section
 
 ***********************************/
+section#counter_rv2 {
+    background: url(../rev-2-img/counter-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+section#counter_rv2:before {
+    content: "";
+    background: #11121b;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: .75;
+}
+
+.counter-item {
+    text-align: center;
+}
+.counter-item {
+    text-align: center;
+    padding: 50px 0;
+}
+.counter-item  p,
+.counter-item .rv2-icon-1 {
+    color: #fff;
+}
+.counter-item  span,
+.counter-item  .counter{
+	color: #23dac9;
+    font-size: 45px;
+    line-height: 45px;
+    display: inline-block;
+}
+.counter-item h3.title-3 {
+	color: #fff;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
 /***********************************
 	005 - services  section
 
 ***********************************/
+.service-item {
+    width: 33.33%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.service-icon {
+    margin-bottom: 35px;
+}
+.service-content .title-3 {
+    margin-bottom: 33px;
+}
+
+#services .col-sm-12:nth-child(2n+1) .service-item {
+    background: #f7f7f7;
+}
+
+#services .col-sm-12:nth-child(even) .service-item{
+    background: #fff ;
+}
+
+.service-item p{
+	margin: 0 ;
+}
 /***********************************
 	006 - team section
 
 ***********************************/
+#team.rv2{
+	background: url("../rev-2-img/Team-bg.jpg");
+	background-size: cover;
+	background-position: center;
+    padding-bottom: 100px;
+    padding-bottom: 100px;
+	position: relative;
+}
+#team.rv2:before {
+    content: "";
+    background: #05131c;
+    opacity: .85;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.team  .team-description p ,
+.team  h2.primary-title.rv2 ,
+.team  .secondary-title.rv2 {
+	color: #fff ;
+}
+.rv2.team .single-team-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 218, 201, 0.87);
+    transition: all .3s;
+    box-shadow: none;
+}
+.rv2.team .team-social{
+	width: 80px;
+}
+.rv2.team .team-social a {
+    width: 35px;
+    float: left;
+}
+.rv2.team .team-social i{
+	width: 100%;
+	height: 100%;
+}
+.rv2.team .team-social a:nth-child(odd) {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.rv2.team .team-social a:nth-child(even){
+    margin-bottom: 10px;	
+}
+/*.rv2.team .team-social a:nth-child(n-2),*/
+.rv2.team .team-social a:nth-last-child(1),
+.rv2.team .team-social a:nth-last-child(2){
+    margin-bottom: 0px;
+}
+.rv2.team  .team-social {
+    position: absolute;
+    left: 50%;
+    margin: auto;
+    top: 50%;
+    height: min-content;
+    transform: translate(-50%, -50%);
+}
 /***********************************
 	007 - events section
 
