@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 12/08/2017 08:20
+    Creation date: 12/08/2017 10:31
     */
 
     @font-face {
@@ -36,20 +36,22 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-right-quotes-symbol:before { content: "\f100"; }
-.flaticon-networking:before { content: "\f101"; }
-.flaticon-cogwheel:before { content: "\f102"; }
-.flaticon-pencil:before { content: "\f103"; }
-.flaticon-team:before { content: "\f104"; }
-.flaticon-light-bulb:before { content: "\f105"; }
-.flaticon-devices:before { content: "\f106"; }
-.flaticon-time:before { content: "\f107"; }
+    .flaticon-plus-sign-to-add:before { content: "\f100"; }
+.flaticon-right-quotes-symbol:before { content: "\f101"; }
+.flaticon-networking:before { content: "\f102"; }
+.flaticon-cogwheel:before { content: "\f103"; }
+.flaticon-pencil:before { content: "\f104"; }
+.flaticon-team:before { content: "\f105"; }
+.flaticon-light-bulb:before { content: "\f106"; }
+.flaticon-devices:before { content: "\f107"; }
+.flaticon-time:before { content: "\f108"; }
     
-    $font-Flaticon-right-quotes-symbol: "\f100";
-    $font-Flaticon-networking: "\f101";
-    $font-Flaticon-cogwheel: "\f102";
-    $font-Flaticon-pencil: "\f103";
-    $font-Flaticon-team: "\f104";
-    $font-Flaticon-light-bulb: "\f105";
-    $font-Flaticon-devices: "\f106";
-    $font-Flaticon-time: "\f107";
+    $font-Flaticon-plus-sign-to-add: "\f100";
+    $font-Flaticon-right-quotes-symbol: "\f101";
+    $font-Flaticon-networking: "\f102";
+    $font-Flaticon-cogwheel: "\f103";
+    $font-Flaticon-pencil: "\f104";
+    $font-Flaticon-team: "\f105";
+    $font-Flaticon-light-bulb: "\f106";
+    $font-Flaticon-devices: "\f107";
+    $font-Flaticon-time: "\f108";

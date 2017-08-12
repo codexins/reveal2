@@ -22,8 +22,8 @@
 	<!-- Master stylesheet
 	============================================ -->
 	<link rel="stylesheet" href="master.css" type='text/css'>
-	<link rel="stylesheet" href="css/owl.carousel.min.css" type='text/css'>
-	<link rel="stylesheet" href="css/owl.theme.default.min.css" type='text/css'>
+	<!-- <link rel="stylesheet" href="css/owl.carousel.min.css" type='text/css'> -->
+	<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css" type='text/css'> -->
 	<!-- home version 2 stylesheet
 	============================================ -->
 	<link rel="stylesheet" href="css/home-style-2.css" type='text/css'>
@@ -119,7 +119,7 @@
 		</div> <!-- end slider   -->
 	</header>  <!-- end of header -->
 	<!-- featured section  000000 -->
-	<div id="featured" class="featured margin-0">
+	<div id="featured" class="featured mrg-0">
 		<div class="container">
 			<div class="row">
 				<!-- single fetured			 -->
@@ -602,124 +602,113 @@
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
-	
 	<!-- cta button  -->
-	<section class="cta-button-rv2">
-		<h3>It Does More. It Costs Less. It’s that Simple.</h3>
-		<a href="#" class="btn pull-right">Button</a>
+	<section class="cta-button-rv2 mrg-b-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-xs">
+					<div class="cta-content">
+						<h4 class="cta-title">It Does More. It Costs Less. It’s that Simple.</h4>
+						<a href="#" class="btn-rv btn-white btn-radius">Know more</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section><!--  cta section end  -->
 	<div class="clearfix"></div>
 
 	<!-- portfolio section  -->
-	<section id="portfolio" class="portfolios">
+	<section id="portfolio_rv2" class="portfolios rv2 mrg-50">
 		<div class="container">
 			
 			<div class="row">
-				<!-- section title  -->
-				<div class="col-sm-12">
-					<div class="rv2-title center-block">
-						<h2 class="primary-title rv2">BEST Services </h2>
-						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
-					</div>
-				</div>  <!-- end of col-sm-12 -->
-				<div class="col-xs-12">
-					<div class="portfolio-filter">
-						<ul class="list-inline">
-							<li class="active" data-filter="*">All</li>
-							<li data-filter=".python">Python</li>
-							<li data-filter=".javascript">Javascript</li>
-							<li data-filter=".laravel">Laravel</li>
-							<li data-filter=".php">PHP</li>
-							<li data-filter=".ruby">RUBY</li>
-						</ul>
+				<div class="portfolio_rv2-button">
+					<!-- section title  -->
+					<div class="row-middle col-sm-3">
+						<div class="rv2-title mrg-0">
+							<h2 class="primary-title mrg-0 rv2">OUR WORK</h2>
+						</div>
+					</div>  <!-- end of col-sm-12 -->
+					<div class="row-middle col-xs-8">
+						<div class="portfolio-filter rv2 pull-right">
+							<ul class="list-inline">
+								<li class="active" data-filter="*">All</li>
+								<li data-filter=".python">Python</li>
+								<li data-filter=".javascript">Javascript</li>
+								<li data-filter=".laravel">Laravel</li>
+								<li data-filter=".php">PHP</li>
+								<li class="view-all"> view all </li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div> <!-- end of row -->
 			<div class="row">
 				<div class="portfolio-wrapper">
-					<div class="col-sm-4 portfolio-rv2 php laravel">
-						<img src="images/portfolio/3.jpg" alt="">
-						<a href="images/portfolio/3.jpg" class="img-pop-up">
-							<div class="image-mask">
-								<div class="image-content">
-									<img src="images/portfolio/hover-icon.png" alt="">
-									<h3>Optimized Coding</h3>
-									<p>Lorem Ipsum Demo</p>
+					<div class="col-sm-4  php laravel">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/Work-1.jpg" alt="">
+							<a href="rev-2-img/Work-1.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</a>
+							</a>
+						</div>
 					</div>
-					<div class=" col-sm-4 portfolio-rv2 python">
-						<img src="images/portfolio/1.jpg" alt="">
-						<a href="images/portfolio/1.jpg" class="img-pop-up">
-							<div class="image-mask">
-								<div class="image-content">
-									<img src="images/portfolio/hover-icon.png" alt="">
-									<h3>Optimized Coding</h3>
-									<p>Lorem Ipsum Demo</p>
+					<div class=" col-sm-4  python">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/Work-2.jpg" alt="">
+							<a href="rev-2-img/Work-2.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</a>
+							</a>
+						</div>
 					</div>
-					<div class=" col-sm-4 portfolio-rv2 laravel javascript">
-						<img src="images/portfolio/2.jpg" alt="">
-						<a href="images/portfolio/2.jpg" class="img-pop-up">
-							<div class="image-mask">
-								<div class="image-content">
-									<img src="images/portfolio/hover-icon.png" alt="">
-									<h3>Optimized Coding</h3>
-									<p>Lorem Ipsum Demo</p>
+					<div class=" col-sm-4  laravel javascript">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/Work-3.jpg" alt="">
+							<a href="rev-2-img/Work-3.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</a>
+							</a>
+						</div>
 					</div>
-					<div class=" col-sm-4 portfolio-rv2 laravel ruby">
-						<img src="images/portfolio/4.jpg" alt="">
-						<a href="images/portfolio/4.jpg" class="img-pop-up">
-							<div class="image-mask">
-								<div class="image-content">
-									<img src="images/portfolio/hover-icon.png" alt="">
-									<h3>Optimized Coding</h3>
-									<p>Lorem Ipsum Demo</p>
+					<div class=" col-sm-4  laravel ruby">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/Work-4.jpg" alt="">
+							<a href="rev-2-img/Work-4.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</a>
+							</a>
+						</div>
 					</div>
-					<div class=" col-sm-4 portfolio-rv2 python php">
-						<img src="images/portfolio/5.jpg" alt="">
-						<a href="images/portfolio/5.jpg" class="img-pop-up">
-							<div class="image-mask">
-								<div class="image-content">
-									<img src="images/portfolio/hover-icon.png" alt="">
-									<h3>Optimized Coding</h3>
-									<p>Lorem Ipsum Demo</p>
+					<div class=" col-sm-4  python php">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/Work-5.jpg" alt="">
+							<a href="rev-2-img/Work-5.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</a>
-					</div>
-					<div class=" col-sm-4 portfolio-rv2 ruby python">
-						<img src="images/portfolio/6.jpg" alt="">
-						<a href="images/portfolio/6.jpg" class="img-pop-up">
-							<div class="image-mask">
-								<div class="image-content">
-									<img src="images/portfolio/hover-icon.png" alt="">
-									<h3>Optimized Coding</h3>
-									<p>Lorem Ipsum Demo</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class=" col-sm-4 portfolio-rv2 javascript laravel">
-						<img src="images/portfolio/7.jpg" alt="">
-						<a href="images/portfolio/7.jpg" class="img-pop-up">
-							<div class="image-mask">
-								<div class="image-content">
-									<img src="images/portfolio/hover-icon.png" alt="">
-									<h3>Optimized Coding</h3>
-									<p>Lorem Ipsum Demo</p>
-								</div>
-							</div>
-						</a>
+							</a>
+						</div>
 					</div>
 				</div> <!-- end of portfolio-wrapper -->
 			</div> <!-- end of row -->
