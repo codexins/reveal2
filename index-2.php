@@ -63,9 +63,9 @@
 						<li><a href=".header">home</a></li>
 						<li><a href="#story">Abouth</a></li>
 						<li><a href="#services">Services</a></li>
-						<li><a href="#events">Events </a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#blog">Blog</a></li>
+						<li><a href="#events_rv2">Events </a></li>
+						<li><a href="#portfolio_rv2">Portfolio</a></li>
+						<li><a href="#letest_post">Blog</a></li>
 						<li><a href="#location">Contact</a></li>
 						<li><div class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></div></li>
 					</ul>
@@ -792,7 +792,7 @@
 	<div class="clearfix"></div>
 
 	<!-- letest post  -->
-	<section class="letest-post mrg-50">
+	<section id="letest_post" class="letest-post mrg-50">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
