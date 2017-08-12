@@ -233,5 +233,49 @@ $(function() {
 	});
 
 
+	// $(".client-comment").owlCarousel({
+
+	// 	autoPlay: false, //Set AutoPlay to 3 seconds
+	// 	navigation: false,
+	// 	pagination: true,
+	//     responsive:{
+	//         0:{
+	//             items:1,
+	//             nav:true
+	//         },
+	//         600:{
+	//             items:1,
+	//             nav:false
+	//         },
+	//         1000:{
+	//             items:2,
+	//             nav:true,
+	//             loop:false
+	//         }
+	//     }
+
+	// });
+
+
+
+	$(".client-comment-curosel").owlCarousel({
+		loop:true,
+		nav:false,
+		autoplay:true,
+		responsive:{
+		    0:{
+		        items:1
+		    },
+		    600:{
+		        items:2
+		    },
+		    1000:{
+		        items:2
+		    }
+		}
+
+	});
+
+
 
 });

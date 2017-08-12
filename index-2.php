@@ -22,6 +22,8 @@
 	<!-- Master stylesheet
 	============================================ -->
 	<link rel="stylesheet" href="master.css" type='text/css'>
+	<link rel="stylesheet" href="css/owl.carousel.min.css" type='text/css'>
+	<link rel="stylesheet" href="css/owl.theme.default.min.css" type='text/css'>
 	<!-- home version 2 stylesheet
 	============================================ -->
 	<link rel="stylesheet" href="css/home-style-2.css" type='text/css'>
@@ -61,11 +63,11 @@
 						<li><a href=".header">home</a></li>
 						<li><a href="#story">Abouth</a></li>
 						<li><a href="#services">Services</a></li>
-						<li><a href="#events">Events</a></li>
+						<li><a href="#events">Events </a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#blog">Blog</a></li>
 						<li><a href="#location">Contact</a></li>
-						<li><div class="search-icon" href="#"><i class="fa fa-search" aria-hidden="true"></i></div></li>
+						<li><div class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></div></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -340,83 +342,92 @@
 	<div class="clearfix"></div>
 
 	<!-- team section -->
-	<section id="team" class="rv2 team mrg-50 pad-50">
+	<section id="team" class="rv2 team mrg-50 ">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title center-block">
+					<div class="rv2-title after-white center-block">
 						<h2 class="primary-title rv2">EXPERT  TEAM</h2>
 						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="clearfix"></div>
 				<div class="col-sm-3">
-					<div class="single-team">
-						<img src="images/team/matthew.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
-							<div class="team-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-instagram"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
+					<div class="team-wraper mrg-b-50">
+						<div class="single-team">
+							<img src="rev-2-img/team-1.jpg" alt="Team" class="img-responsive" />
+							<div class="single-team-wrapper">
+								<div class="team-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-instagram"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+								</div>
 							</div>
 						</div>
+						<div class="team-description text-center">
+							<p>Alfred Aaron</p>
+							<p>Ruby Expert</p>
+						</div>
 					</div>
-					<div class="team-description text-center">
-						<p>Alfred Aaron</p>
-						<p>Ruby Expert</p>
+
+				</div>
+				<div class="col-sm-3">
+					<div class="team-wraper mrg-b-50">
+						<div class="single-team">
+							<img src="rev-2-img/Ellyse-Perry.jpg" alt="Team" class="img-responsive" />
+							<div class="single-team-wrapper">
+								<div class="team-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-instagram"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-description text-center">
+							<p>Leanne Emma</p>
+							<p>Python Specialist</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="single-team">
-						<img src="images/team/emma.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
-							<div class="team-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-instagram"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
+					<div class="team-wraper mrg-b-50">
+						<div class="single-team">
+							<img src="rev-2-img/Jeremain-Lens.jpg" alt="Team" class="img-responsive" />
+							<div class="single-team-wrapper">
+								<div class="team-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-instagram"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="team-description text-center">
-						<p>Leanne Emma</p>
-						<p>Python Specialist</p>
+						<div class="team-description text-center">
+							<p>Michelle Kylee</p>
+							<p>PHP Developer</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="single-team">
-						<img src="images/team/michelle.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
-							<div class="team-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-instagram"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
+					<div class="team-wraper mrg-b-50">
+						<div class="single-team">
+							<img src="rev-2-img/Holly-Ferling.jpg" alt="Team" class="img-responsive" />
+							<div class="single-team-wrapper">
+								<div class="team-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-instagram"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="team-description text-center">
-						<p>Michelle Kylee</p>
-						<p>PHP Developer</p>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="single-team">
-						<img src="images/team/christopher.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
-							<div class="team-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-instagram"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-							</div>
+						<div class="team-description text-center">
+							<p>Ceasar Morgan</p>
+							<p>Java Expert</p>
 						</div>
-					</div>
-					<div class="team-description text-center">
-						<p>Ceasar Morgan</p>
-						<p>Java Expert</p>
 					</div>
 				</div>
 			</div> <!-- end of row -->
@@ -425,7 +436,7 @@
 	<div class="clearfix"></div>
 
 	<!-- event section  -->
-	<section id="events" class="Events">
+	<section id="events_rv2" class="Events mrg-t-50">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
@@ -438,28 +449,42 @@
 				</div>  <!-- end of col-sm-12 -->
 				<div class="cleasrfix"></div>
 				<div class="col-sm-6">
-					<div class="single-event">
-						<img src="rev-2-img/Event-left.jpg" alt="">
-						<h3>Let’s Make Things Better.</h3>
-						<p>
-							<ul>
-								<li><i> </i>  8:00 AM - 5:00 PM  </li>
-								<li><i> </i>    LONDON, UK  </li>
-								<li><i> </i>   08/07/17</li>
-							</ul>
-						</p>
+					<div class="single-event mrg-b-50">
+						<div class="event-img"><img src="rev-2-img/Event-left.jpg" alt=""></div>
+						<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
+
+						<ul>
+							<li><i class="fa fa-clock-o" aria-hidden="true"></i>
+							 	 8:00 AM - 5:00 PM  
+							 </li>
+							<li>
+								<i class="fa fa-map-marker" aria-hidden="true"></i>  LONDON, UK 
+							 </li>
+							<li>
+								<i class="fa fa-calendar" aria-hidden="true"></i>
+							 	  08/07/17
+							 </li>
+						</ul>
+						
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
 					</div>
 				</div>
 				<div class="col-sm-6">
-					<div class="single-event">
-						<img src="rev-2-img/Event-right.jpg" alt="">
-						<h3>Let’s Make Things Better.</h3>
+					<div class="single-event mrg-b-50">
+						<div class="event-img"><img src="rev-2-img/Event-right.jpg" alt=""></div>
+						<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 						<p>
 							<ul>
-								<li><i> </i>  8:00 AM - 5:00 PM  </li>
-								<li><i> </i>    LONDON, UK  </li>
-								<li><i> </i>   08/07/17</li>
+								<li><i class="fa fa-clock-o" aria-hidden="true"></i>
+								 	 8:00 AM - 5:00 PM  
+								 </li>
+								<li>
+									<i class="fa fa-map-marker" aria-hidden="true"></i>  LONDON, UK 
+								 </li>
+								<li>
+									<i class="fa fa-calendar" aria-hidden="true"></i>
+								 	  08/07/17
+								 </li>
 							</ul>
 						</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
@@ -471,39 +496,106 @@
 	<div class="clearfix"></div>
 
 	<!-- client fedback  -->
-	<section id="feedback">
+	<section id="feedback" class="mrg-t-50 client-feedback">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title center-block">
-						<h2 class="primary-title rv2">BEST Services </h2>
-						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					<div class="rv2-title after-white center-block">
+						<h2 class="primary-title rv2">Client Feedback </h2>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
-				</div>
-				<div class="col-sm-6">
-					<div class="client">
-						<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
+				<div class="clearfix"></div>
+				<div class="client-comment-curosel owl-carousel owl-theme">
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
+								</div>
+								<div class="client-name">
+									<i class="flaticon-right-quotes-symbol"></i>
+									<h3 class="title-3">Mark Twain</h3>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
 						</div>
-						<div class="client-name">
-							<h3>, voluptua eleifend </h3>
+					</div>	
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-right.png" alt="">
+								</div>
+								<div class="client-name">
+									<i class="flaticon-right-quotes-symbol"></i>
+									<h3 class="title-3">Mark Twain</h3>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
 						</div>
-
-						<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.
-					 		</p>
 					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="client">
-						<div class="client-img"><img src="rev-2-img/Client-right.png" alt="">
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
+								</div>
+								<div class="client-name">
+									<i class="flaticon-right-quotes-symbol"></i>
+									<h3 class="title-3">Mark Twain</h3>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
 						</div>
-						<div class="client-name">
-							<h3>, voluptua eleifend </h3>
+					</div>	
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-right.png" alt="">
+								</div>
+								<div class="client-name">
+									<i class="flaticon-right-quotes-symbol"></i>
+									<h3 class="title-3">Mark Twain</h3>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
 						</div>
-
-						<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.
-					 		</p>
+					</div>
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
+								</div>
+								<div class="client-name">
+									<i class="flaticon-right-quotes-symbol"></i>
+									<h3 class="title-3">Mark Twain</h3>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
+						</div>
+					</div>	
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-right.png" alt="">
+								</div>
+								<div class="client-name">
+									<i class="flaticon-right-quotes-symbol"></i>
+									<h3 class="title-3">Mark Twain</h3>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div> <!-- end of row -->
