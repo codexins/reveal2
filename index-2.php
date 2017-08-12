@@ -606,7 +606,7 @@
 	<section class="cta-button-rv2 mrg-b-50">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-xs">
+				<div class="col-sm-12">
 					<div class="cta-content">
 						<h4 class="cta-title">It Does More. It Costs Less. It’s that Simple.</h4>
 						<a href="#" class="btn-rv btn-white btn-radius">Know more</a>
@@ -717,7 +717,7 @@
 	<div class="clearfix"></div>
 
 	<!-- client carosel  -->
-	<div id="clients-rv2" class="clients">
+	<div id="clients-rv2" class="clients mrg-50">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12">
@@ -752,7 +752,7 @@
 	<div class="clearfix"></div>
 
 	<!-- location google map and contact form  -->
-	<section id="location" class="location-rv2 ">
+	<section id="location" class="location-rv2 mrg-50">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6 location-map">
@@ -760,29 +760,31 @@
 					</div><!--/#map-->
 				</div>
 				<div class="col-sm-6 contact-form-wrapper-rv2">
-					<form id="contact-form" class="contact-form" action="sendemail.php" method="post">	
-						<div class="row">
-						  <div class="form-group col-sm-6">
-						    <label for="name" class="sr-only">Name</label>
-						    <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required>
-						  </div>
-						  <div class="form-group col-sm-6">
-						    <label for="exampleInputEmail1" class="sr-only">Email address</label>
-						    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email*" required>
-						  </div>
-						  <div class="form-group col-sm-12">
-						    <label for="subject" class="sr-only">Subject</label>
-						    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*" required>
-						  </div>
+					<div class="contact-form-position">
+						<form id="contact-form" class="contact-form" action="sendemail.php" method="post">	
+							<div class="row">
+							  <div class="form-group col-sm-6">
+							    <label for="name" class="sr-only">Name</label>
+							    <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required>
+							  </div>
+							  <div class="form-group col-sm-6">
+							    <label for="exampleInputEmail1" class="sr-only">Email address</label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email*" required>
+							  </div>
+							  <div class="form-group col-sm-12">
+							    <label for="subject" class="sr-only">Subject</label>
+							    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*" required>
+							  </div>
 
-						  <div class="form-group col-sm-12">
-							<textarea class="form-control" name="message" rows="3" placeholder="Your Message*" required></textarea>
-						  </div>
-							<div class="form-group col-sm-12">
-								<input type="submit" class="form-control btn" value="Submit">
-							</div>
-						</div>	
-					 </form> 	
+							  <div class="form-group col-sm-12">
+								<textarea class="form-control" name="message" rows="3" placeholder="Your Message*" required></textarea>
+							  </div>
+								<div class="form-group col-sm-12">
+									<input type="submit" id="rv2-btn" class="btn-rv" value="Submit">
+								</div>
+							</div>	
+						 </form> 	
+					</div> <!-- end of col -->
 				</div> <!-- end of col -->
 			</div> <!-- end of row -->
 		</div> <!-- end of container-fluid -->
@@ -790,13 +792,13 @@
 	<div class="clearfix"></div>
 
 	<!-- letest post  -->
-	<section class="letest-post">
+	<section class="letest-post mrg-50">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
 					<div class="rv2-title center-block">
-						<h2 class="primary-title rv2">BEST Services </h2>
+						<h2 class="primary-title rv2">LATEST POST</h2>
 						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
@@ -804,43 +806,59 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="single-post">
-						<img src="rev-2-img/Latest-post-1.jpg" alt="">
-						<h3>Let’s Make Things Better.</h3>
-						<p>
+						<div class="post-img">
+							<img src="rev-2-img/Latest-post-1.jpg" alt="">
+							<a href="#" class="btn-white btn-rv">read more</a>
+						</div>
+						<div class="post-info">
+							<h3 class="title-3">Let’s Make Things Better.</h3>
+							<p>Technology</p>
 							<ul>
-								<li><i> </i>  8:00 AM - 5:00 PM  </li>
-								<li><i> </i>    LONDON, UK  </li>
-								<li><i> </i>   08/07/17</li>
+								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
 							</ul>
-						</p>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="single-post">
-						<img src="rev-2-img/Latest-post-2.jpg" alt="">
-						<h3>Let’s Make Things Better.</h3>
-						<p>
+						
+						<div class="post-img">
+							<img src="rev-2-img/Latest-post-2.jpg" alt="">
+							<a href="#" class="btn-white btn-rv">read more</a>
+						</div>
+						<div class="post-info">
+							<h3 class="title-3">Let’s Make Things Better.</h3>
+							<p>Technology</p>
 							<ul>
-								<li><i> </i>  8:00 AM - 5:00 PM  </li>
-								<li><i> </i>    LONDON, UK  </li>
-								<li><i> </i>   08/07/17</li>
+								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
 							</ul>
-						</p>
+							
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="single-post">
-						<img src="rev-2-img/Latest-post-3.jpg" alt="">
-						<h3>Let’s Make Things Better.</h3>
-						<p>
+						
+						<div class="post-img">
+							<img src="rev-2-img/Latest-post-3.jpg" alt="">
+							<a href="#" class="btn-white btn-rv">read more</a>
+						</div>
+						<div class="post-info">
+							<h3 class="title-3">Let’s Make Things Better.</h3>
+							<p>Technology</p>
 							<ul>
-								<li><i> </i>  8:00 AM - 5:00 PM  </li>
-								<li><i> </i>    LONDON, UK  </li>
-								<li><i> </i>   08/07/17</li>
+								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
 							</ul>
-						</p>
+							
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
 					</div>
 				</div>
@@ -850,21 +868,21 @@
 	<div class="clearfix"></div>
 
 	<!-- lewsletter -->
-	<section class="newsletter">
+	<section class="newsletter mrg-t-50 ">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title center-block">
-						<h2 class="primary-title rv2">BEST Services </h2>
-						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					<div class="rv2-title newsletter-title center-block">
+						<h2 class="primary-title rv2">Newsletter</h2>
+						<h4 class="secondary-title rv2">Sign up for our mailing list to get latest updates and offers.</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="col-sm-12">
 					<div class="newsletter-form">
 						<form>
 							<input type="text" class="newsletter-field" placeholder="yourdomain@domain.com">
-							<button type="submit" class="newsletter-button">--></button>
+							<button type="submit" class="newsletter-button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 						</form>
 					</div>
 				</div>
@@ -876,10 +894,10 @@
 	<!-- footer section  -->
 	<footer class="footer">
 		<div class="container">
-			<div class="row">
+			<div class="row footer-widget">
 				<div class="col-sm-3">
 					<div class="widget">
-						<img  class="footer-logo" src="rev-2-img/logo.png" alt="">
+						<div class="widget-title widget-info "><img  class="footer-logo" src="rev-2-img/logo.png" alt=""></div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis eum, illo corporis nemo repudiandae sed libero vero natus labore autem sequi alias, at similique mollitia totam eius sint incidunt debitis.</p>
 						<p>01798861231</p>
 						<p>yourdomain@domain.con</p>
@@ -887,41 +905,38 @@
 				</div>
 				<div class="col-sm-3">
 					<div class="footer-center">
-						<p class="widget-title">Blog</p>
-							<div class="media">
-								<a class="media-left" href="#">
-									<img class="media-object" src="images/footer/1.png" alt="">
-								</a>
-								<div class="media-body">
-									<h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipiscing</h4>
-									<p>Jan 9, 2016</p>
+						<p class="widget-title title-3">Blog</p>
+						<ul>
+							<li>
+								<div class="img-left">
+									<img src="rev-2-img/widget.png" alt="">
 								</div>
-							</div>
-
-							<div class="media">
-								<a class="media-left" href="#">
-									<img class="media-object" src="images/footer/2.png" alt="">
-								</a>
-								<div class="media-body">
-									<h4 class="media-heading">Consectetur adipiscing elit, sed do eiusmod tempor</h4>
-									<p>Jan 9, 2016</p>
+								<div class="blog-title-info">
+									<h6><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h6>
 								</div>
-							</div>
-
-							<div class="media">
-								<a class="media-left" href="#">
-									<img class="media-object" src="images/footer/3.png" alt="">
-								</a>
-								<div class="media-body">
-									<h4 class="media-heading">Sed do eiusmod tempor incididunt ut labore</h4>
-									<p>Jan 9, 2016</p>
+							</li>
+							<li>
+								<div class="img-left">
+									<img src="rev-2-img/widget.png" alt="">
 								</div>
-							</div>
+								<div class="blog-title-info">
+									<h6><a href="#"> Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h6>
+								</div>
+							</li>
+							<li>
+								<div class="img-left">
+									<img src="rev-2-img/widget.png" alt="">
+								</div>
+								<div class="blog-title-info">
+									<h6><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h6>
+								</div>
+							</li>
+						</ul>
 					</div> <!-- end of footer-center -->
 				</div>
 				<div class="col-sm-3">
 					<div class="information">
-						<p class="widget-title">information</p>
+						<p class="widget-title title-3">information</p>
 						<ul>
 							<li><a href="#">Careers</a></li>
 							<li><a href="#">Investor Relations</a></li>
@@ -932,7 +947,7 @@
 				</div>
 				<div class="col-sm-3">
 					<div class="footer-right">
-						<p class="widget-title">Instagrem</p>
+						<p class="widget-title title-3">Instagrem</p>
 						<div class="instagram-images">
 							<a href=""><img src="images/instagram/1.jpg" alt=""><div class="hoverable"></div></a>
 							<a href=""><img src="images/instagram/2.jpg" alt=""><div class="hoverable"></div></a>
@@ -945,16 +960,21 @@
 					</div> <!-- end of footer-right -->
 				</div>
 			</div> <!-- end row  -->
-			<div class="row">
-				<div class="col-sm-12">
-					<p class="text-center copyright">Copyright @2017 Ddesign by <a href="http://www.themeitems.com" target="_blank">ThemeItems</a> .All Rights Reserved</p>
-				</div>
-			</div>
 		</div><!--  end container --> 
+		<div class="copyright-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-center copyright">Copyright @2017 Ddesign by <a href="http://www.themeitems.com" target="_blank">ThemeItems</a> .All Rights Reserved</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
 	</footer><!-- end footer --> 
 	<!-- Go to Top Button at right bottom of the window screen -->
 	<div id="toTop" style="">
-		<i class="fa fa-chevron-up"></i>
+		<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
 	</div>
 	 <!-- Go to Top Button finished-->
 	<!-- jquery
@@ -990,86 +1010,86 @@
 			var mapProp= {
 			    center:new google.maps.LatLng(51.508742,-0.120850),
 			    zoom:18,
-			    styles: [
-	            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-	            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-	            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-	            {
-	              featureType: 'administrative.locality',
-	              elementType: 'labels.text.fill',
-	              stylers: [{color: '#d59563'}]
-	            },
-	            {
-	              featureType: 'poi',
-	              elementType: 'labels.text.fill',
-	              stylers: [{color: '#d59563'}]
-	            },
-	            {
-	              featureType: 'poi.park',
-	              elementType: 'geometry',
-	              stylers: [{color: '#263c3f'}]
-	            },
-	            {
-	              featureType: 'poi.park',
-	              elementType: 'labels.text.fill',
-	              stylers: [{color: '#6b9a76'}]
-	            },
-	            {
-	              featureType: 'road',
-	              elementType: 'geometry',
-	              stylers: [{color: '#38414e'}]
-	            },
-	            {
-	              featureType: 'road',
-	              elementType: 'geometry.stroke',
-	              stylers: [{color: '#212a37'}]
-	            },
-	            {
-	              featureType: 'road',
-	              elementType: 'labels.text.fill',
-	              stylers: [{color: '#9ca5b3'}]
-	            },
-	            {
-	              featureType: 'road.highway',
-	              elementType: 'geometry',
-	              stylers: [{color: '#746855'}]
-	            },
-	            {
-	              featureType: 'road.highway',
-	              elementType: 'geometry.stroke',
-	              stylers: [{color: '#1f2835'}]
-	            },
-	            {
-	              featureType: 'road.highway',
-	              elementType: 'labels.text.fill',
-	              stylers: [{color: '#f3d19c'}]
-	            },
-	            {
-	              featureType: 'transit',
-	              elementType: 'geometry',
-	              stylers: [{color: '#2f3948'}]
-	            },
-	            {
-	              featureType: 'transit.station',
-	              elementType: 'labels.text.fill',
-	              stylers: [{color: '#d59563'}]
-	            },
-	            {
-	              featureType: 'water',
-	              elementType: 'geometry',
-	              stylers: [{color: '#17263c'}]
-	            },
-	            {
-	              featureType: 'water',
-	              elementType: 'labels.text.fill',
-	              stylers: [{color: '#515c6d'}]
-	            },
-	            {
-	              featureType: 'water',
-	              elementType: 'labels.text.stroke',
-	              stylers: [{color: '#17263c'}]
-	            }
-	          ]
+			    // styles: [
+		     //        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+		     //        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+		     //        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+		     //        {
+		     //          featureType: 'administrative.locality',
+		     //          elementType: 'labels.text.fill',
+		     //          stylers: [{color: '#d59563'}]
+		     //        },
+		     //        {
+		     //          featureType: 'poi',
+		     //          elementType: 'labels.text.fill',
+		     //          stylers: [{color: '#d59563'}]
+		     //        },
+		     //        {
+		     //          featureType: 'poi.park',
+		     //          elementType: 'geometry',
+		     //          stylers: [{color: '#263c3f'}]
+		     //        },
+		     //        {
+		     //          featureType: 'poi.park',
+		     //          elementType: 'labels.text.fill',
+		     //          stylers: [{color: '#6b9a76'}]
+		     //        },
+		     //        {
+		     //          featureType: 'road',
+		     //          elementType: 'geometry',
+		     //          stylers: [{color: '#38414e'}]
+		     //        },
+		     //        {
+		     //          featureType: 'road',
+		     //          elementType: 'geometry.stroke',
+		     //          stylers: [{color: '#212a37'}]
+		     //        },
+		     //        {
+		     //          featureType: 'road',
+		     //          elementType: 'labels.text.fill',
+		     //          stylers: [{color: '#9ca5b3'}]
+		     //        },
+		     //        {
+		     //          featureType: 'road.highway',
+		     //          elementType: 'geometry',
+		     //          stylers: [{color: '#746855'}]
+		     //        },
+		     //        {
+		     //          featureType: 'road.highway',
+		     //          elementType: 'geometry.stroke',
+		     //          stylers: [{color: '#1f2835'}]
+		     //        },
+		     //        {
+		     //          featureType: 'road.highway',
+		     //          elementType: 'labels.text.fill',
+		     //          stylers: [{color: '#f3d19c'}]
+		     //        },
+		     //        {
+		     //          featureType: 'transit',
+		     //          elementType: 'geometry',
+		     //          stylers: [{color: '#2f3948'}]
+		     //        },
+		     //        {
+		     //          featureType: 'transit.station',
+		     //          elementType: 'labels.text.fill',
+		     //          stylers: [{color: '#d59563'}]
+		     //        },
+		     //        {
+		     //          featureType: 'water',
+		     //          elementType: 'geometry',
+		     //          stylers: [{color: '#17263c'}]
+		     //        },
+		     //        {
+		     //          featureType: 'water',
+		     //          elementType: 'labels.text.fill',
+		     //          stylers: [{color: '#515c6d'}]
+		     //        },
+		     //        {
+		     //          featureType: 'water',
+		     //          elementType: 'labels.text.stroke',
+		     //          stylers: [{color: '#17263c'}]
+		     //        }
+	      //     	]
 			};
 			var map=new google.maps.Map(document.getElementById("map2"),mapProp);
 		}

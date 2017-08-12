@@ -60,23 +60,6 @@ $(function() {
 	  itemsMobile : [420, 3]
 
 	});
-		/*--------------------------------------------------------------
-	client carouel
-	---------------------------------------------------------------- */
-
-	$("#client-carousel-rv2").owlCarousel({
-
-		autoPlay: false, //Set AutoPlay to 3 seconds
-		navigation: false,
-		pagination: false,
-		items : 5,
-		itemsDesktop : [1199,5],
-		itemsDesktopSmall : [991,5],
-		itemsTablet : [767,5],
-		itemsTabletSmall : [599,4],
-		itemsMobile : [420, 3]
-
-	});
 
 
 
@@ -232,31 +215,24 @@ $(function() {
 		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 	});
 
+		/*--------------------------------------------------------------
+	client carouel
+	---------------------------------------------------------------- */
 
-	// $(".client-comment").owlCarousel({
+	$("#client-carousel-rv2").owlCarousel({
 
-	// 	autoPlay: false, //Set AutoPlay to 3 seconds
-	// 	navigation: false,
-	// 	pagination: true,
-	//     responsive:{
-	//         0:{
-	//             items:1,
-	//             nav:true
-	//         },
-	//         600:{
-	//             items:1,
-	//             nav:false
-	//         },
-	//         1000:{
-	//             items:2,
-	//             nav:true,
-	//             loop:false
-	//         }
-	//     }
+		autoPlay: false, //Set AutoPlay to 3 seconds
+		navigation: false,
+		pagination: false,
+		margin:180,
+		items : 5,
+		itemsDesktop : [1199,5],
+		itemsDesktopSmall : [991,5],
+		itemsTablet : [767,5],
+		itemsTabletSmall : [599,4],
+		itemsMobile : [420, 3]
 
-	// });
-
-
+	});
 
 	$(".client-comment-curosel").owlCarousel({
 		loop:true,
