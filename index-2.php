@@ -86,7 +86,7 @@
 							<div class="col-sm-6">
 								<h3>WELCOME TO REVEAL</h3>
 								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
-								<a href="#" class="btn-rv btn-white btn-radius">Know more</a>
+								<a href="#" class="btn-rv btn-white ">Know more</a>
 							</div>	
 						</div>	
 					</div>	
@@ -100,7 +100,7 @@
 							<div class="col-sm-6">
 								<h3>WELCOME TO REVEAL</h3>
 								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
-								<a href="#" class="btn-rv btn-white btn-radius ">Know more</a>
+								<a href="#" class="btn-rv btn-white  ">Know more</a>
 							</div>	
 						</div>	
 					</div>	
@@ -156,7 +156,7 @@
 
 
 	<!-- story section	start  -->
-	<section id="story" class="story mrg-50  wow fadeInUp " data-wow-duration="1s" data-wow-delay=".5s">
+	<section id="story" class="story mrg-50   ">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
@@ -350,86 +350,82 @@
 						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
-				<div class="clearfix"></div>
+			</div>
+			<div class="row">	
 				<div class="col-sm-3">
-					<div class="team-wraper mrg-b-50">
-						<div class="single-team">
-							<img src="rev-2-img/team-1.jpg" alt="Team" class="img-responsive" />
-							<div class="single-team-wrapper">
-								<div class="team-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-google-plus"></i></a>
-								</div>
+					<div class="single-team">
+						<img src="images/team/matthew.jpg" alt="Team" class="img-responsive" />
+						<div class="single-team-wrapper">
+							<div class="team-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
 							</div>
 						</div>
-						<div class="team-description text-center">
-							<p>Alfred Aaron</p>
-							<p>Ruby Expert</p>
-						</div>
 					</div>
+					<div class="team-description text-center">
+						<p>Alfred Aaron</p>
+						<p>Ruby Expert</p>
+					</div>
+				</div>
 
-				</div>
 				<div class="col-sm-3">
-					<div class="team-wraper mrg-b-50">
-						<div class="single-team">
-							<img src="rev-2-img/Ellyse-Perry.jpg" alt="Team" class="img-responsive" />
-							<div class="single-team-wrapper">
-								<div class="team-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-google-plus"></i></a>
-								</div>
+					<div class="single-team">
+						<img src="images/team/emma.jpg" alt="Team" class="img-responsive" />
+						<div class="single-team-wrapper">
+							<div class="team-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
 							</div>
 						</div>
-						<div class="team-description text-center">
-							<p>Leanne Emma</p>
-							<p>Python Specialist</p>
-						</div>
+					</div>
+					<div class="team-description text-center">
+						<p>Leanne Emma</p>
+						<p>Python Specialist</p>
 					</div>
 				</div>
+
 				<div class="col-sm-3">
-					<div class="team-wraper mrg-b-50">
-						<div class="single-team">
-							<img src="rev-2-img/Jeremain-Lens.jpg" alt="Team" class="img-responsive" />
-							<div class="single-team-wrapper">
-								<div class="team-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-google-plus"></i></a>
-								</div>
+					<div class="single-team">
+						<img src="images/team/michelle.jpg" alt="Team" class="img-responsive" />
+						<div class="single-team-wrapper">
+							<div class="team-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
 							</div>
 						</div>
-						<div class="team-description text-center">
-							<p>Michelle Kylee</p>
-							<p>PHP Developer</p>
-						</div>
+					</div>
+					<div class="team-description text-center">
+						<p>Michelle Kylee</p>
+						<p>PHP Developer</p>
 					</div>
 				</div>
+
 				<div class="col-sm-3">
-					<div class="team-wraper mrg-b-50">
-						<div class="single-team">
-							<img src="rev-2-img/Holly-Ferling.jpg" alt="Team" class="img-responsive" />
-							<div class="single-team-wrapper">
-								<div class="team-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-google-plus"></i></a>
-								</div>
+					<div class="single-team">
+						<img src="images/team/christopher.jpg" alt="Team" class="img-responsive" />
+						<div class="single-team-wrapper">
+							<div class="team-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
 							</div>
 						</div>
-						<div class="team-description text-center">
-							<p>Ceasar Morgan</p>
-							<p>Java Expert</p>
-						</div>
+					</div>
+					<div class="team-description text-center">
+						<p>Ceasar Morgan</p>
+						<p>Java Expert</p>
 					</div>
 				</div>
-			</div> <!-- end of row -->
-		</div> <!-- end of container -->
+
+			</div>
+		</div>
 	</section> <!-- end of team section -->
 	<div class="clearfix"></div>
 
@@ -441,8 +437,8 @@
 				<!-- section title  -->
 				<div class="col-sm-12">
 					<div class="rv2-title center-block">
-						<h2 class="primary-title rv2">BEST Services </h2>
-						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+						<h2 class="primary-title rv2">Events</h2>
+						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="cleasrfix"></div>
@@ -501,6 +497,7 @@
 				<div class="col-sm-12">
 					<div class="rv2-title after-white center-block">
 						<h2 class="primary-title rv2">Client Feedback </h2>
+						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="clearfix"></div>
@@ -607,7 +604,7 @@
 				<div class="col-sm-12">
 					<div class="cta-content">
 						<h4 class="cta-title">It Does More. It Costs Less. It’s that Simple.</h4>
-						<a href="#" class="btn-rv btn-white btn-radius">Know more</a>
+						<a href="#" class="btn-rv btn-white ">Know more</a>
 					</div>
 				</div>
 			</div>
@@ -869,18 +866,22 @@
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
 
+
+
+	</section><!--  cta section end  -->
+
+
+
 	<!-- lewsletter -->
 	<section class="newsletter mrg-t-50 ">
 		<div class="container">
 			<div class="row">
-				<!-- section title  -->
-				<div class="col-sm-12">
-					<div class="rv2-title newsletter-title center-block">
-						<h2 class="primary-title rv2">Newsletter</h2>
-						<h4 class="secondary-title rv2">Sign up for our mailing list to get latest updates and offers.</h4>
+				<div class="col-sm-6">
+					<div class="newsletter-title">
+						<h3>newsletter subscribe </h3>
 					</div>
-				</div>  <!-- end of col-sm-12 -->
-				<div class="col-sm-12">
+				</div>
+				<div class="col-sm-6">
 					<div class="newsletter-form">
 						<form>
 							<input type="text" class="newsletter-field" placeholder="yourdomain@domain.com">
@@ -901,8 +902,10 @@
 					<div class="widget">
 						<div class="widget-title widget-info "><img  class="footer-logo" src="rev-2-img/logo.png" alt=""></div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis eum, illo corporis nemo repudiandae sed libero vero natus labore autem sequi alias, at similique mollitia totam eius sint incidunt debitis.</p>
-						<p>01798861231</p>
-						<p>yourdomain@domain.con</p>
+						<div class="footer-contact">
+							<p><i class="fa fa-mobile" aria-hidden="true"></i>01798861231</p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i>yourdomain@domain.con</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
@@ -945,6 +948,13 @@
 							<li><a href="#">Press Releases</a></li>
 							<li><a href="#">Shop with Points</a></li>
 						</ul>
+						<div class="socials">
+						 	<a href=""><i class="fa fa-facebook"></i></a>
+						 	<a href=""><i class="fa fa-twitter"></i></a>
+						 	<a href=""><i class="fa fa-linkedin"></i></a>
+						 	<a href=""><i class="fa fa-instagram"></i></a>
+						 	<a href=""><i class="fa fa-behance"></i></a>
+						 </div>
 					</div>
 				</div>
 				<div class="col-sm-3">

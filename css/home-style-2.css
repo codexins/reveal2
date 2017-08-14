@@ -550,7 +550,7 @@ section#counter_rv2:before {
     margin-bottom: 35px;
 }
 .service-content .title-3 {
-    margin-bottom: 33px;
+    margin-bottom: 20px;
 }
 
 #services .col-sm-12:nth-child(2n+1) .service-item {
@@ -590,14 +590,13 @@ section#counter_rv2:before {
     right: 0;
     left: 0;
 }
-.team  .team-description p ,
+
 .team  h2.primary-title.rv2 ,
 .team  .secondary-title.rv2 {
 	color: #fff ;
-	line-height: 100%;
 }
-.team  .team-description p{
-	line-height: 110%;
+.team  .team-description p {
+	color: #e1e1e1 ;
 }
 .rv2.team .single-team-wrapper {
     position: absolute;
@@ -609,9 +608,7 @@ section#counter_rv2:before {
     transition: all .3s;
     box-shadow: none;
 }
-.rv2.team .team-social{
-	width: 80px;
-}
+
 .rv2.team .team-social a {
     width: 35px;
     float: left;
@@ -625,18 +622,7 @@ section#counter_rv2:before {
     background: #2a2a2a;
     color: #23dac9;
 }
-.rv2.team .team-social a:nth-child(odd) {
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-.rv2.team .team-social a:nth-child(even){
-    margin-bottom: 10px;	
-}
-/*.rv2.team .team-social a:nth-child(n-2),*/
-.rv2.team .team-social a:nth-last-child(1),
-.rv2.team .team-social a:nth-last-child(2){
-    margin-bottom: 0px;
-}
+
 .rv2.team  .team-social {
     position: absolute;
     left: 50%;
@@ -650,7 +636,7 @@ section#counter_rv2:before {
     position: relative;
 }
 .rv2.team .team-description p:first-child {
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 /***********************************
 	007 - events section
@@ -663,13 +649,13 @@ section#counter_rv2:before {
 
 .single-event .title-3{
 	font-size: 25px;
-	margin-bottom: 20px;
+    margin-bottom: 13px;
 	transition: 0.3s ;
 }
 .single-event ul{
 	list-style-type: none;
 	padding-left: 0 ;
-	margin-bottom: 30px ;
+    margin-bottom: 24px;
 }
 .single-event ul li {
     display: inline-block;
@@ -681,7 +667,7 @@ section#counter_rv2:before {
 }
 .event-img {
 	position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 .event-img:before {
     content: "";
@@ -697,6 +683,9 @@ section#counter_rv2:before {
 .single-event:hover .event-img:before {
 	opacity: 0.75 ;
 }
+.single-event ul i {
+    margin-right: 10px;
+}
 /***********************************
 	008 - feedback section
 
@@ -710,6 +699,7 @@ section#counter_rv2:before {
 }
 .client-comment,
 .client-name .title-3,
+.client-feedback .secondary-title.rv2 ,
 .client-feedback .primary-title.rv2{
 	color: #fff ;
 }
@@ -892,9 +882,11 @@ section.cta-button-rv2 {
 	011 - clients section
 ***********************************/
 
-#client-carousel-rv2  .item img{
-	width: initial;
-	max-width: 100%;
+#client-carousel-rv2 .item img {
+    width: initial;
+    max-width: 100%;
+    max-height: 85px;
+    height: 100%;
 }
 .item{
 	text-align: center;
@@ -905,6 +897,9 @@ section.cta-button-rv2 {
 #location.location-rv2.mrg-50{
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+#gmap{
+	height: 550px;
 }
 #map2 {
     position: relative;
@@ -1058,8 +1053,8 @@ section.cta-button-rv2 {
 	014 - newsletter section
 ***********************************/
 .newsletter {
-    padding: 100px 0;
-    background: #f7f7f7;
+    background: #30bbad;
+    padding: 45px 0;
 }
 .newsletter form{
 	position: relative;
@@ -1079,12 +1074,14 @@ button.newsletter-button {
     bottom: 0;
     border: 0;
 }
-.newsletter-title .secondary-title.rv2 {
-    color: #707070;
-    text-transform: initial;
-    font-size: 15px;
-    margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;
+
+.newsletter-title h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: initial;
+    margin: 0;
+    padding: 10px;
 }
 input.newsletter-field:focus {
     outline: 0;
@@ -1127,7 +1124,11 @@ footer.footer {
 .blog-title-info h6 a{
 	color: #fff ;
 }
-
+.widget p i {
+    margin-right: 20px;
+    width: 20px;
+    font-size: 18px;
+}
 .footer-widget ul li {
     display: block;
     overflow: hidden;
@@ -1158,6 +1159,7 @@ footer.footer {
 .copyright-area {
     background: #000;
     padding: 17px;
+    margin-top: 60px;
 }
 .copyright-area	.copyright{
 	color: #b9b9b9 ;
@@ -1175,4 +1177,21 @@ div#toTop {
 }
 #toTop i {
     line-height: 60px;
+}
+.footer-contact {
+    padding-top: 15px;
+}
+.information .socials i {
+    width: 33px;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #fff;
+    color: #000;
+    background: #cdcdcd;
+    font-size: 20px;
+}
+.information .socials a:hover i {
+    background: #23dac9;
+    border: 1px solid #23dac9;
+    color: #fff;
 }

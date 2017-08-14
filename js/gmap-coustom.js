@@ -39,17 +39,17 @@
 	{
 		"featureType": "road",
 		"stylers": [
-		{ "color": "#b4b4b4" }
+		{ "color": "#ffffff" }
 		]
 	},{
 		"featureType": "water",
 		"stylers": [
-		{ "color": "#d8d8d8" }
+		{ "color": "#7dcdce" }
 		]
 	},{
 		"featureType": "landscape",
 		"stylers": [
-		{ "color": "#f1f1f1" }
+		{ "color": "#e9e5dc" }
 		]
 	},{
 		"elementType": "labels.text.fill",
