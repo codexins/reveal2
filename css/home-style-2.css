@@ -136,7 +136,7 @@ h2.primary-title.rv2 {
 	font-weight: 600 ;
 	color: #252525 ;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .secondary-title.rv2{
 	color: #707070 ;
@@ -271,7 +271,7 @@ Creation date: 11/08/2017 09:26
     width: 60px;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 35px;
+	margin-bottom: 42px;
     text-align: center;
 }
 .rv2-icon-1 i{
@@ -280,7 +280,7 @@ Creation date: 11/08/2017 09:26
 .rv2-icon-1 i:before{
 	margin: 0;
     line-height: 40px;
-    font-size: 40px;
+    font-size: 65px;
     transition: 0.3s  ;
 }
 .white-bg{
@@ -302,7 +302,9 @@ nav.navbar {
 }
 header .navbar.affix {
     z-index: 99;
+    background-color: #23dac9;
 }
+
 section{
 	margin: initial;
 }
@@ -322,7 +324,7 @@ section{
 }
 .header.rv2  .main-menu li.active a,
 .header.rv2 .main-menu li a:hover {
-    color: #23dac9;
+    color: #252525;
     border-bottom: 0px solid transparent;
 }
 .header.rv2 .main-menu li .search-icon{
@@ -404,11 +406,11 @@ section{
 .slider-text h3 {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 32px;
-    line-height: 100%;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 .slider-text p {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     display: block;
     overflow: hidden;
 }
@@ -422,7 +424,7 @@ section{
 	z-index: 95;
 }
 .featured-item {
-    padding: 70px 45px 60px;
+    padding: 75px 45px 63px;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.15);
     background: #fff;
     position: relative;
@@ -437,6 +439,7 @@ section{
 	color: #23dac9 ;
 }
 
+.item-hover,
 .featured-item:hover{
     box-shadow: 0px 15px 60px -22px rgba(0,0,0,0.5)
 }
@@ -450,6 +453,7 @@ section{
 }
 .story-menu ul{
 	list-style: none;
+	margin-left: 15px;
 }
 .story-menu ul li {
 	position: relative;
@@ -480,18 +484,7 @@ section{
 .story-menu ul li:hover a{
     color: #23dac9;
 }
-.story-wrap .rv2-title {
-    width: 50%;
-    float: right;
-}
-.story-menu {
-    float: right;
-}
 
-.story-content{
-	float: left;
-	width: 65% ;
-}
 .tab-content p:not(:last-child) {
     margin-bottom: 35px;
 }
@@ -536,11 +529,12 @@ section#counter_rv2:before {
     font-size: 45px;
     line-height: 45px;
     display: inline-block;
+    font-weight: 600;
 }
 .counter-item h3.title-3 {
 	color: #fff;
     margin-bottom: 0;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 /***********************************
 	005 - services  section
@@ -998,6 +992,9 @@ section.cta-button-rv2 {
 #location.location-rv2 input[type="text"]:-moz-placeholder,
 #location.location-rv2 input[type="text"]:-moz-placeholder { 
   	color:#fff;}
+.error{
+	color: red ;
+}
 /***********************************	
 	013 - letest-post section
 ***********************************/

@@ -22,6 +22,7 @@
 	<!-- Master stylesheet
 	============================================ -->
 	<link rel="stylesheet" href="master.css" type='text/css'>
+	<link rel="stylesheet" href="css/animate.css" type='text/css'>
 	<!-- <link rel="stylesheet" href="css/owl.carousel.min.css" type='text/css'> -->
 	<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css" type='text/css'> -->
 	<!-- home version 2 stylesheet
@@ -99,7 +100,7 @@
 							<div class="col-sm-6">
 								<h3>WELCOME TO REVEAL</h3>
 								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
-								<a href="#" class="btn-btn-primary ">Know more</a>
+								<a href="#" class="btn-rv btn-white btn-radius ">Know more</a>
 							</div>	
 						</div>	
 					</div>	
@@ -126,8 +127,8 @@
 		<div class="container">
 			<div class="row">
 				<!-- single fetured			 -->
-				<div class="col-sm-4">
-					<div class="featured-item text-center">
+				<div class="col-sm-4 ">
+					<div class="featured-item text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.4s">
 						<div class="rv2-icon-1 featured-icon"><i class="flaticon-light-bulb"></i></div>
 						<h4 class="title-3">Creative team</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
@@ -135,7 +136,7 @@
 				</div>
 				<!-- single fetured			 -->
 				<div class="col-sm-4">
-					<div class="featured-item text-center">
+					<div class="featured-item item-hover text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.6s" >
 						<div class="rv2-icon-1 featured-icon"><i class="flaticon-devices"></i></div>
 						<h4 class="title-3">web developer</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
@@ -143,7 +144,7 @@
 				</div>
 				<!-- single fetured			 -->
 				<div class="col-sm-4">
-					<div class="featured-item text-center">
+					<div class="featured-item text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.8s">
 						<div class="rv2-icon-1 featured-icon"><i class="flaticon-time"></i></div>
 						<h4 class="title-3">24/7 support</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
@@ -155,38 +156,19 @@
 
 
 	<!-- story section	start  -->
-	<section id="story" class="story mrg-t-50">
+	<section id="story" class="story mrg-50  wow fadeInUp " data-wow-duration="1s" data-wow-delay=".5s">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
-
+				<div class="col-sm-12">
+					<div class="rv2-title">
+						<h2 class="primary-title rv2">OUR STORY </h2>
+						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+					</div>
+				</div>
+				<div class="clearfix"></div>
 				<div class="col-sm-8">
-					
 					<div class="story-wrap">
-						<div class="rv2-title">
-							<h2 class="primary-title rv2">OUR STORY </h2>
-							<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
-						</div>
-						<div class="clearfix"></div>
-						<div class="story-menu">
-							  <!-- Nav tabs -->
-							  <ul class="" role="tablist">
-
-							    	<li role="presentation" class="active">
-							    		<a href="#html_tutorial" aria-controls="html_tutorial" role="tab" data-toggle="tab">HTML Tutorial</a>
-							    	</li>
-							    	<li role="presentation">
-							    		<a href="#js_certificate" aria-controls="js_certificate" role="tab" data-toggle="tab">JavaScript Certificate</a>
-							    	</li>
-							    	<li role="presentation">
-							    		<a href="#js_tutorial" aria-controls="js_tutorial" role="tab" data-toggle="tab">JavaScript Tutorial</a>
-							    	</li>
-							    	<li role="presentation">
-							    		<a href="#bstp_certificate" aria-controls="bstp_certificate" role="tab" data-toggle="tab">Bootstrap Certificate</a></li>
-
-							    	<li role="presentation"><a href="#bstp_tutorial" aria-controls="bstp_tutorial" role="tab" data-toggle="tab">Bootstrap Tutorial </a></li>
-							  </ul>
-						</div>
 						<div class="story-content">
 							<!-- Tab panes -->
 							<div class="tab-content">
@@ -219,13 +201,26 @@
 							</div>
 						</div>
 					</div>	<!-- end of story-wrap	 -->
-
-
 				</div>	<!-- end of col-sm-8 -->
-
 				<div class="col-sm-4">
-					<div class="story-img">
-						<img src="rev-2-img/girl.png" alt="">
+					<div class="story-menu">
+						<!-- Nav tabs -->
+						<ul class="" role="tablist">
+
+							<li role="presentation" class="active">
+								<a href="#html_tutorial" aria-controls="html_tutorial" role="tab" data-toggle="tab">HTML Tutorial</a>
+							</li>
+							<li role="presentation">
+								<a href="#js_certificate" aria-controls="js_certificate" role="tab" data-toggle="tab">JavaScript Certificate</a>
+							</li>
+							<li role="presentation">
+								<a href="#js_tutorial" aria-controls="js_tutorial" role="tab" data-toggle="tab">JavaScript Tutorial</a>
+							</li>
+							<li role="presentation">
+								<a href="#bstp_certificate" aria-controls="bstp_certificate" role="tab" data-toggle="tab">Bootstrap Certificate</a></li>
+
+							<li role="presentation"><a href="#bstp_tutorial" aria-controls="bstp_tutorial" role="tab" data-toggle="tab">Bootstrap Tutorial </a></li>
+						</ul>
 					</div>
 				</div> <!-- end of col-sm-4 -->
 			</div> <!-- end of row -->
@@ -234,7 +229,7 @@
 	<div class="clearfix"></div>
 
 	<!-- counter v2 start -->
-	<section id="counter_rv2" class="mrg-b-50 pad-50">
+	<section id="counter_rv2" class="mrg-50 pad-50">
 		<div class="container">
 			<div class="row">
 
@@ -759,7 +754,11 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6 location-map">
-					<div id="map2">
+					<div id="map">
+						<div id="gmap-wrap">
+				 			<div id="gmap"> 				
+				 			</div>	 			
+				    	</div>
 					</div><!--/#map-->
 				</div>
 				<div class="col-sm-6 contact-form-wrapper-rv2">
@@ -1006,98 +1005,15 @@
 	<!-- Magnific Pop up JS
 	============================================ -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/smoothScroll.js"></script>
 	<!-- google map api and gmaps JS
+
 	============================================ -->
-	<script>
-		function mapoption() {
-			var mapProp= {
-			    center:new google.maps.LatLng(51.508742,-0.120850),
-			    zoom:18,
-			    // styles: [
-		     //        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-		     //        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-		     //        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-		     //        {
-		     //          featureType: 'administrative.locality',
-		     //          elementType: 'labels.text.fill',
-		     //          stylers: [{color: '#d59563'}]
-		     //        },
-		     //        {
-		     //          featureType: 'poi',
-		     //          elementType: 'labels.text.fill',
-		     //          stylers: [{color: '#d59563'}]
-		     //        },
-		     //        {
-		     //          featureType: 'poi.park',
-		     //          elementType: 'geometry',
-		     //          stylers: [{color: '#263c3f'}]
-		     //        },
-		     //        {
-		     //          featureType: 'poi.park',
-		     //          elementType: 'labels.text.fill',
-		     //          stylers: [{color: '#6b9a76'}]
-		     //        },
-		     //        {
-		     //          featureType: 'road',
-		     //          elementType: 'geometry',
-		     //          stylers: [{color: '#38414e'}]
-		     //        },
-		     //        {
-		     //          featureType: 'road',
-		     //          elementType: 'geometry.stroke',
-		     //          stylers: [{color: '#212a37'}]
-		     //        },
-		     //        {
-		     //          featureType: 'road',
-		     //          elementType: 'labels.text.fill',
-		     //          stylers: [{color: '#9ca5b3'}]
-		     //        },
-		     //        {
-		     //          featureType: 'road.highway',
-		     //          elementType: 'geometry',
-		     //          stylers: [{color: '#746855'}]
-		     //        },
-		     //        {
-		     //          featureType: 'road.highway',
-		     //          elementType: 'geometry.stroke',
-		     //          stylers: [{color: '#1f2835'}]
-		     //        },
-		     //        {
-		     //          featureType: 'road.highway',
-		     //          elementType: 'labels.text.fill',
-		     //          stylers: [{color: '#f3d19c'}]
-		     //        },
-		     //        {
-		     //          featureType: 'transit',
-		     //          elementType: 'geometry',
-		     //          stylers: [{color: '#2f3948'}]
-		     //        },
-		     //        {
-		     //          featureType: 'transit.station',
-		     //          elementType: 'labels.text.fill',
-		     //          stylers: [{color: '#d59563'}]
-		     //        },
-		     //        {
-		     //          featureType: 'water',
-		     //          elementType: 'geometry',
-		     //          stylers: [{color: '#17263c'}]
-		     //        },
-		     //        {
-		     //          featureType: 'water',
-		     //          elementType: 'labels.text.fill',
-		     //          stylers: [{color: '#515c6d'}]
-		     //        },
-		     //        {
-		     //          featureType: 'water',
-		     //          elementType: 'labels.text.stroke',
-		     //          stylers: [{color: '#17263c'}]
-		     //        }
-	      //     	]
-			};
-			var map=new google.maps.Map(document.getElementById("map2"),mapProp);
-		}
-	</script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck&callback=mapoption"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck"></script>
+	<script src="js/gmaps.js"></script>
+	<script src="js/gmap-coustom.js"></script>
 	<!-- main JS
 	============================================ -->
 	<script src="js/main.js"></script>

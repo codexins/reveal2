@@ -1,9 +1,6 @@
 $(function() {
 	"use strict";
 
-
-
-
 	/*--------------------------------------------------------------
 	Header full screen background image
     ---------------------------------------------------------------- */
@@ -193,19 +190,31 @@ $(function() {
 
 	// full screen slider 
 
-	  	var Height = $(window).height(); 
-		$(".slider-item").height(Height);
-		$(".header.rv2").height(Height);
-
+  	var Height = $(window).height(); 
+	$(".slider-item").height(Height);
+	$(".header.rv2").height(Height);
+	
+	// wow js 
+	var wow = new WOW(
+	  {
+	    boxClass:     'wow',      // animated element css class (default is wow)
+	    animateClass: 'animated', // animation css class (default is animated)
+	    offset:       90,          // distance to the element when triggering the animation (default is 0)
+	    mobile:       true,       // trigger animations on mobile devices (default is true)
+	    live:         true,       // act on asynchronously loaded content (default is true)
+	    callback:     function(box) {
+	      // the callback is fired every time an animation is started
+	      // the argument that is passed in is the DOM node being animated
+	    },
+	    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+	    resetAnimation: true,     // reset animation on end (default is true)
+	  }
+	);
+	wow.init();
 	// full screen slider 
 
-
-
-
-
-
 	$(".slider").owlCarousel({
-		autoplay: false, //Set AutoPlay to 2 seconds
+		autoplay: true, //Set AutoPlay to 2 seconds
 		loop:true,
 		nav:true,
 		dots: false,
@@ -251,6 +260,44 @@ $(function() {
 		}
 
 	});
+	    
+	$('#contact-form').validate({
+
+        rules: {
+            name: {
+                required: true,
+                minlength: 2
+            },
+
+            email: {
+                required: true,
+                email: true
+            },
+
+            subject: {
+                required: true,
+                minlength: 5
+            },
+            message:{
+            	required: true,
+            	minlength: 5
+            }
+        },
+
+        messages: {
+            author: "Please provide a valid name",
+            email: "Please provide a valid email",
+            comment: "Comments needs to be at least 5 characters"
+        },
+
+        errorElement: "div",
+        errorPlacement: function(error, element) {
+            element.after(error);
+        }
+
+    });
+
+ 
 
 
 
