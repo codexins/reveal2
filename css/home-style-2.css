@@ -301,7 +301,7 @@ nav.navbar {
     z-index: 9;
 }
 header .navbar.affix {
-    /*z-index: 9;*/
+    z-index: 99;
 }
 section{
 	margin: initial;
