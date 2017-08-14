@@ -296,33 +296,22 @@ header{
 }
 header.rv2{
 	background: transparent;
-
+}
+nav.navbar {
+    z-index: 9;
 }
 header .navbar.affix {
-    z-index: 99;
+    /*z-index: 9;*/
 }
 section{
 	margin: initial;
 }
 .header.rv2 .navbar-brand {
     padding: 0;
+    margin: 0;
 }
 .home2-slider-text {
     color: #fff;
-}
-
-.header{
-	position: relative;
-}
-
-.navbar{
-		z-index: 999;
-}
-.header.rv2 nav.affix-top {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
 }
 .header.rv2 .main-menu li a{
 	position: relative;
@@ -496,7 +485,6 @@ section{
     float: right;
 }
 .story-menu {
-    width: 35%;
     float: right;
 }
 
