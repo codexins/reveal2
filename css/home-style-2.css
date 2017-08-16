@@ -309,9 +309,10 @@ section{
 	margin: initial;
 }
 .header.rv2 .navbar-brand {
-    padding: 0;
+    padding: 4px 0;
     margin: 0;
 }
+
 .home2-slider-text {
     color: #fff;
 }
@@ -324,8 +325,12 @@ section{
 }
 .header.rv2  .main-menu li.active a,
 .header.rv2 .main-menu li a:hover {
-    color: #252525;
+    color: #23dac9;
     border-bottom: 0px solid transparent;
+}
+.header.rv2 .navbar.affix  .main-menu li.active a,
+.header.rv2  .navbar.affix .main-menu li a:hover {
+    color: #252525;
 }
 .header.rv2 .main-menu li .search-icon{
 	color: #fff ;
@@ -610,8 +615,9 @@ section#counter_rv2:before {
 }
 
 .rv2.team .team-social a {
-    width: 35px;
-    float: left;
+    display: table-cell;
+    padding: 0 7px;
+    width: 40px;
 }
 .rv2.team .team-social i {
     width: 100%;
@@ -619,24 +625,36 @@ section#counter_rv2:before {
     color: #23dac9;
 }
 .rv2.team .team-social a:hover i {          
-    background: #2a2a2a;
     color: #23dac9;
 }
-
-.rv2.team  .team-social {
+.team-social i:hover{
+	background: transparent;
+}
+.rv2.team .team-social a{
+    background: #fff;
+}
+.rv2.team .team-social a:hover{
+	background: #2a2a2a ;
+}
+.rv2.team .team-social {
     position: absolute;
     left: 50%;
     margin: auto;
     top: 50%;
-    height: min-content;
     transform: translate(-50%, -50%);
+    display: table;
 }
+
+
 .rv2.team .single-team {
     margin-top: 0;
     position: relative;
 }
 .rv2.team .team-description p:first-child {
     margin-bottom: 2px;
+}
+.team-social i{
+	background: transparent;
 }
 /***********************************
 	007 - events section

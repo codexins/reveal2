@@ -27,7 +27,7 @@
 	<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css" type='text/css'> -->
 	<!-- home version 2 stylesheet
 	============================================ -->
-	<link rel="stylesheet" href="css/home-style-2.css" type='text/css'>
+	<!-- <link rel="stylesheet" href="css/home-style-2.css" type='text/css'> -->
 </head>
 <body>
     <!--[if lt IE 9]>
@@ -114,7 +114,7 @@
 							<div class="col-sm-6">
 								<h3>WELCOME TO REVEAL</h3>
 								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
-								<a href="#" class="btn-btn-primary ">Know more</a>
+								<a href="#" class="btn-rv btn-white ">Know more</a>
 							</div>	
 						</div>	
 					</div>	
@@ -1017,7 +1017,7 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.validate.js"></script>
-	<script src="js/smoothScroll.js"></script>
+	<!-- <script src="js/smoothScroll.js"></script> -->
 	<!-- google map api and gmaps JS
 
 	============================================ -->
