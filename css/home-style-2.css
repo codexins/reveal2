@@ -250,7 +250,9 @@ Creation date: 11/08/2017 09:26
     display: inline-block;
     transition: 0.3s ;
     text-transform: uppercase;
+    min-width: 123px;
 }
+
 .btn-white{
 	background: #fff ;
 	color: #606060 ;
@@ -802,6 +804,12 @@ section.cta-button-rv2 {
 	010 - portfolio section
 
 ***********************************/
+.rv2 .portfolio-filter ul {
+    text-align: none;
+}
+.portfolio-filter.rv2 ul li{
+	float: left;
+}
 .portfolio-rv2{
 	position: relative;
     margin-top: 30px;
@@ -1015,6 +1023,9 @@ section.cta-button-rv2 {
 	position: relative;
 	margin-bottom: 30px;
 }
+.post-img img {
+    width: 100%;
+}
 .post-img:before{
 	position: absolute;
 	content: "";
@@ -1034,6 +1045,9 @@ section.cta-button-rv2 {
     left: 50%;
     opacity: 0 ;
     transition: 0.3s ;
+}
+.single-post {
+    margin-bottom: 50px;
 }
 .single-post:hover .post-img:before{
 	opacity: .7;
@@ -1177,7 +1191,7 @@ footer.footer {
 .copyright-area {
     background: #000;
     padding: 17px;
-    margin-top: 60px;
+
 }
 .copyright-area	.copyright{
 	color: #b9b9b9 ;
@@ -1212,4 +1226,7 @@ div#toTop {
     background: #23dac9;
     border: 1px solid #23dac9;
     color: #fff;
+}
+.widget {
+    margin-bottom: 60px;
 }

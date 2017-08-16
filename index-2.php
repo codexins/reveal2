@@ -167,7 +167,28 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="col-sm-8">
+				<div class="col-sm-4  col-sm-push-8">
+					<div class="story-menu">
+						<!-- Nav tabs -->
+						<ul class="" role="tablist">
+
+							<li role="presentation" class="active">
+								<a href="#html_tutorial" aria-controls="html_tutorial" role="tab" data-toggle="tab">HTML Tutorial</a>
+							</li>
+							<li role="presentation">
+								<a href="#js_certificate" aria-controls="js_certificate" role="tab" data-toggle="tab">JavaScript Certificate</a>
+							</li>
+							<li role="presentation">
+								<a href="#js_tutorial" aria-controls="js_tutorial" role="tab" data-toggle="tab">JavaScript Tutorial</a>
+							</li>
+							<li role="presentation">
+								<a href="#bstp_certificate" aria-controls="bstp_certificate" role="tab" data-toggle="tab">Bootstrap Certificate</a></li>
+
+							<li role="presentation"><a href="#bstp_tutorial" aria-controls="bstp_tutorial" role="tab" data-toggle="tab">Bootstrap Tutorial </a></li>
+						</ul>
+					</div>
+				</div> <!-- end of col-sm-4 -->
+				<div class="col-sm-8  col-sm-pull-4">
 					<div class="story-wrap">
 						<div class="story-content">
 							<!-- Tab panes -->
@@ -202,27 +223,7 @@
 						</div>
 					</div>	<!-- end of story-wrap	 -->
 				</div>	<!-- end of col-sm-8 -->
-				<div class="col-sm-4">
-					<div class="story-menu">
-						<!-- Nav tabs -->
-						<ul class="" role="tablist">
-
-							<li role="presentation" class="active">
-								<a href="#html_tutorial" aria-controls="html_tutorial" role="tab" data-toggle="tab">HTML Tutorial</a>
-							</li>
-							<li role="presentation">
-								<a href="#js_certificate" aria-controls="js_certificate" role="tab" data-toggle="tab">JavaScript Certificate</a>
-							</li>
-							<li role="presentation">
-								<a href="#js_tutorial" aria-controls="js_tutorial" role="tab" data-toggle="tab">JavaScript Tutorial</a>
-							</li>
-							<li role="presentation">
-								<a href="#bstp_certificate" aria-controls="bstp_certificate" role="tab" data-toggle="tab">Bootstrap Certificate</a></li>
-
-							<li role="presentation"><a href="#bstp_tutorial" aria-controls="bstp_tutorial" role="tab" data-toggle="tab">Bootstrap Tutorial </a></li>
-						</ul>
-					</div>
-				</div> <!-- end of col-sm-4 -->
+				
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
@@ -352,7 +353,8 @@
 				</div>  <!-- end of col-sm-12 -->
 			</div>
 			<div class="row">	
-				<div class="col-sm-3">
+				<div class="col-sm-3 team-wrap">
+					
 					<div class="single-team">
 						<img src="images/team/matthew.jpg" alt="Team" class="img-responsive" />
 						<div class="single-team-wrapper">
@@ -368,9 +370,10 @@
 						<p>Alfred Aaron</p>
 						<p>Ruby Expert</p>
 					</div>
+					
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-sm-3 team-wrap">
 					<div class="single-team">
 						<img src="images/team/emma.jpg" alt="Team" class="img-responsive" />
 						<div class="single-team-wrapper">
@@ -388,7 +391,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-sm-3 team-wrap">
 					<div class="single-team">
 						<img src="images/team/michelle.jpg" alt="Team" class="img-responsive" />
 						<div class="single-team-wrapper">
@@ -406,7 +409,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-sm-3 team-wrap">
 					<div class="single-team">
 						<img src="images/team/christopher.jpg" alt="Team" class="img-responsive" />
 						<div class="single-team-wrapper">
@@ -624,7 +627,7 @@
 							<h2 class="primary-title mrg-0 rv2">OUR WORK</h2>
 						</div>
 					</div>  <!-- end of col-sm-12 -->
-					<div class="row-middle col-xs-8">
+					<div class="row-middle col-sm-8">
 						<div class="portfolio-filter rv2 pull-right">
 							<ul class="list-inline">
 								<li class="active" data-filter="*">All</li>
@@ -640,7 +643,7 @@
 			</div> <!-- end of row -->
 			<div class="row">
 				<div class="portfolio-wrapper">
-					<div class="col-sm-4  php laravel">
+					<div class="col-sm-4 col-xs-12  php laravel">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="rev-2-img/Work-1.jpg" alt="">
 							<a href="rev-2-img/Work-1.jpg" class="img-pop-up">
@@ -653,7 +656,7 @@
 							</a>
 						</div>
 					</div>
-					<div class=" col-sm-4  python">
+					<div class=" col-sm-4 col-xs-12  python">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="rev-2-img/Work-2.jpg" alt="">
 							<a href="rev-2-img/Work-2.jpg" class="img-pop-up">
@@ -666,7 +669,7 @@
 							</a>
 						</div>
 					</div>
-					<div class=" col-sm-4  laravel javascript">
+					<div class=" col-sm-4 col-xs-12  laravel javascript">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="rev-2-img/Work-3.jpg" alt="">
 							<a href="rev-2-img/Work-3.jpg" class="img-pop-up">
@@ -679,7 +682,7 @@
 							</a>
 						</div>
 					</div>
-					<div class=" col-sm-4  laravel ruby">
+					<div class=" col-sm-4 col-xs-12  laravel ruby">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="rev-2-img/Work-4.jpg" alt="">
 							<a href="rev-2-img/Work-4.jpg" class="img-pop-up">
@@ -692,7 +695,7 @@
 							</a>
 						</div>
 					</div>
-					<div class=" col-sm-4  python php">
+					<div class=" col-sm-4 col-xs-12  python php">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="rev-2-img/Work-5.jpg" alt="">
 							<a href="rev-2-img/Work-5.jpg" class="img-pop-up">
@@ -787,11 +790,11 @@
 				</div> <!-- end of col -->
 			</div> <!-- end of row -->
 		</div> <!-- end of container-fluid -->
-	</section> <<!-- location google map and contact form  -->
+	</section> <!-- location google map and contact form  -->
 	<div class="clearfix"></div>
 
 	<!-- letest post  -->
-	<section id="letest_post" class="letest-post mrg-50">
+	<section id="letest_post" class="letest-post mrg-t-50">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
@@ -866,12 +869,6 @@
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
 
-
-
-	</section><!--  cta section end  -->
-
-
-
 	<!-- lewsletter -->
 	<section class="newsletter mrg-t-50 ">
 		<div class="container">
@@ -898,7 +895,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row footer-widget">
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6 ">
 					<div class="widget">
 						<div class="widget-title widget-info "><img  class="footer-logo" src="rev-2-img/logo.png" alt=""></div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis eum, illo corporis nemo repudiandae sed libero vero natus labore autem sequi alias, at similique mollitia totam eius sint incidunt debitis.</p>
@@ -908,8 +905,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<div class="footer-center">
+				<div class="col-md-3 col-sm-6 ">
+					<div class="widget footer-center">
 						<p class="widget-title title-3">Blog</p>
 						<ul>
 							<li>
@@ -939,9 +936,10 @@
 						</ul>
 					</div> <!-- end of footer-center -->
 				</div>
-				<div class="col-sm-3">
+				<div class="clearfix visible-sm"></div>
+				<div class="col-md-3 col-sm-6 ">
 					<div class="information">
-						<p class="widget-title title-3">information</p>
+						<p class="widget widget-title title-3">information</p>
 						<ul>
 							<li><a href="#">Careers</a></li>
 							<li><a href="#">Investor Relations</a></li>
@@ -957,8 +955,8 @@
 						 </div>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<div class="footer-right">
+				<div class="col-md-3 col-sm-6 ">
+					<div class="widget footer-right">
 						<p class="widget-title title-3">Instagrem</p>
 						<div class="instagram-images">
 							<a href=""><img src="images/instagram/1.jpg" alt=""><div class="hoverable"></div></a>

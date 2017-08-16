@@ -230,16 +230,26 @@ $(function() {
 
 	$("#client-carousel-rv2").owlCarousel({
 
-		autoPlay: false, //Set AutoPlay to 3 seconds
+		autoPlay: true, //Set AutoPlay to 3 seconds
 		navigation: false,
 		pagination: false,
 		margin:180,
 		items : 5,
-		itemsDesktop : [1199,5],
-		itemsDesktopSmall : [991,5],
-		itemsTablet : [767,5],
-		itemsTabletSmall : [599,4],
-		itemsMobile : [420, 3]
+		responsive:{
+		    0:{
+		        items:2,
+		        margin:80
+
+		    },
+		    600:{
+		        items:4,
+		        margin:100
+		    },
+		    1000:{
+		        items:5,
+		        margin:100
+		    }
+		}
 
 	});
 
