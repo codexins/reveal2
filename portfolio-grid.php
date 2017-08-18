@@ -44,7 +44,7 @@
 	-->
 	<!--  Site Loader finished -->
 	<!-- header section start -->
-	<header class="header rv2 blog-header" >
+	<header class="header rv2 blog-header">
 		<nav class="navbar" data-spy="affix" data-offset-top="150">
 			<div class="container">
 				<div class="row">
@@ -92,228 +92,169 @@
 		 <!-- end banner   -->
 	</header>  <!-- end of header -->
 
-	<!-- letest post  -->
-	<section class="blog-post mrg-50">
-		<div class="container">
+	<!-- portfolio section  -->
+	<section id="portfolio_rv2" class="portfolios  rv2 mrg-50">
+		<div class="container">	
 			<div class="row">
-				<!-- section title  -->
-				<div class="col-sm-12">
-					<div class="rv2-title center-block">
-						<h2 class="primary-title rv2">our BLOG</h2>
-						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
-					</div>
-				</div>  <!-- end of col-sm-12 -->
-			</div><!-- end of row -->
-			<div class="row">
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						<div class="post-img">
-							<img src="rev-2-img/Latest-post-1.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
+				<div class="portfolio_rv2-button grid-button">
+					
+					<div class="col-sm-12">
+						<div class="portfolio-filter grid rv2 ">
 							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+								<li class="active" data-filter="*">All</li>
+								<li data-filter=".python">Python</li>
+								<li data-filter=".javascript">Javascript</li>
+								<li data-filter=".laravel">Laravel</li>
+								<li data-filter=".php">PHP</li>
 							</ul>
 						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						
-						<div class="post-img">
-							<img src="rev-2-img/Latest-post-2.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-							
-						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						
-						<div class="post-img">
-							<img src="rev-2-img/Latest-post-3.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-							
-						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
-					</div>
-				</div>
-
-				<div class="clearfix hidden-xs hidden-sm"></div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						
-						<div class="post-img">
-							<img src="rev-2-img/blog/04_blog4.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-							
-						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						<div class="post-img video">
-							<iframe  src="https://www.youtube.com/embed/k32voqQhODc" frameborder="0" allowfullscreen></iframe>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						<div class="post-img">
-							<img src="rev-2-img/blog/04_blog5.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
-					</div>
-				</div>
-
-				<div class="clearfix hidden-xs hidden-sm"></div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						<div class="post-img">
-							<img src="rev-2-img/blog/04_blog7.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-							
-						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						<div class="post-img video">
-							<iframe  src="https://www.youtube.com/embed/CXSwNIPsyTs" frameborder="0" allowfullscreen></iframe>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="single-post">
-						<div class="post-img">
-							<img src="rev-2-img/blog/04_blog6.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-						</div>
-						<p>Utamur eruditi no mei, no duo hinc denique. Nam dicit scaevola in, dicant neore aeterno sed te. Magna dissentiet effintur at pri.</p>
-					</div>
-				</div>
-				
 			</div> <!-- end of row -->
 			<div class="row">
-				<div class="col-sm-12">
-					<nav class="post-pagination">
-						<ul>
-							<li>
-								<a href="#">
-									<i class="fa fa-angle-left" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li><span>1</span></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li>
-								<a href="#" >
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
+				<div class="portfolio-wrapper grid">
+					<div class="col-sm-4 col-xs-12  php laravel">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid-1.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid-1.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class=" col-sm-4 col-xs-12  python">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid2.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid2.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class=" col-sm-4 col-xs-12  laravel javascript">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid3.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid3.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class=" col-sm-4 col-xs-12  python php">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid5.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid5.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class=" col-sm-4 col-xs-12  laravel ruby">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid-4.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid-4.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class=" col-sm-4 col-xs-12  laravel ruby">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid6.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid6.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class=" col-sm-4 col-xs-12  laravel ruby">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid-7.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid-7.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+
+					<div class=" col-sm-4 col-xs-12  laravel ruby">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid9.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid9.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class=" col-sm-4 col-xs-12  laravel ruby">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid8.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid8.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class=" col-sm-4 col-xs-12  laravel ruby">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="rev-2-img/blog/Portfolio-Grid10.jpg" alt="">
+							<a href="rev-2-img/blog/Portfolio-Grid10.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+				</div> <!-- end of portfolio-wrapper -->
+			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
+
 
 	<!-- footer section  -->
 	<footer class="footer">

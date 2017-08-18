@@ -1271,6 +1271,9 @@ div#toTop {
 
 .header.blog-header{
 	background: url(../rev-2-img/blog/04_blog---Copy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .banner {
     padding: 100px 0 133px;
@@ -1344,4 +1347,26 @@ div#toTop {
 }
 .post-pagination li a {
 	color: #707070;
+}
+
+/*portfolio page */
+.portfolio-filter.grid{
+	text-align: center;
+}
+
+.portfolio-filter.grid ul li{
+	padding: 0 15px;
+}
+.portfolio-filter.grid ul li:hover{
+	background: transparent;
+	border: 0;
+	color:#23dac9; 
+}
+.portfolio-filter.grid ul {
+    display: inline-block;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+.portfolio_rv2-button.grid-button {
+    margin-bottom: 10px;
 }
