@@ -44,7 +44,7 @@
 	-->
 	<!--  Site Loader finished -->
 	<!-- header section start -->
-	<header class="header  rv2">
+	<header class="header  rv2 fill-screen">
 		<nav class="navbar" data-spy="affix" data-offset-top="150">
 			<div class="container">
 				<div class="row">
@@ -62,7 +62,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="reveal-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right main-menu">
-								<li><a href=".header">home</a></li>
+								<li class=""><a href=".header">home</a></li>
 								<li><a href="#story">Abouth</a></li>
 								<li><a href="#services">Services</a></li>
 								<li><a href="#events_rv2">Events </a></li>
@@ -811,6 +811,7 @@
 						<div class="post-img">
 							<img src="rev-2-img/Latest-post-1.jpg" alt="">
 							<a href="#" class="btn-white btn-rv">read more</a>
+							<span class="date-time"> 12 aug</span>
 						</div>
 						<div class="post-info">
 							<h3 class="title-3">Let’s Make Things Better.</h3>
@@ -830,6 +831,7 @@
 						<div class="post-img">
 							<img src="rev-2-img/Latest-post-2.jpg" alt="">
 							<a href="#" class="btn-white btn-rv">read more</a>
+							<span class="date-time"> 12 aug</span>
 						</div>
 						<div class="post-info">
 							<h3 class="title-3">Let’s Make Things Better.</h3>
@@ -850,6 +852,7 @@
 						<div class="post-img">
 							<img src="rev-2-img/Latest-post-3.jpg" alt="">
 							<a href="#" class="btn-white btn-rv">read more</a>
+							<span class="date-time"> 12 aug</span>
 						</div>
 						<div class="post-info">
 							<h3 class="title-3">Let’s Make Things Better.</h3>

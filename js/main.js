@@ -5,7 +5,7 @@ $(function() {
 	Header full screen background image
     ---------------------------------------------------------------- */
 
-	$(window).on( "load resize", function() {
+	$(window).on( "load", function() {
 		$(".fill-screen").css("height", window.innerHeight);
 	});
 
@@ -192,7 +192,8 @@ $(function() {
 
   	var Height = $(window).height(); 
 	$(".slider-item").height(Height);
-	$(".header.rv2").height(Height);
+	$(".header.fill-screen").height(Height);
+	$(".header.blog").height();
 	
 	// wow js 
 	var wow = new WOW(

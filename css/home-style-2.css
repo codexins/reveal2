@@ -9,6 +9,9 @@
 /******************************
 
 INDEX:
+
+==>>> HOMEPAGE <<<==
+
 	000 - General Typography section
 	001 - header section
 		001.1 slider 
@@ -26,6 +29,9 @@ INDEX:
 	013 - letest-post section
 	014 - newsletter section
 	015 - footer section
+
+==>>> Blog Page <<<==
+	016 - blog header
 
 
 ******************************/
@@ -309,6 +315,12 @@ header .navbar.affix {
 
 section{
 	margin: initial;
+}
+.rv2 nav.navbar{
+    padding-top: 38px;
+}
+.rv2  nav.navbar.affix {
+    padding-top: 0;
 }
 .header.rv2 .navbar-brand {
     padding: 4px 0;
@@ -1026,6 +1038,26 @@ section.cta-button-rv2 {
 .post-img img {
     width: 100%;
 }
+.date-time{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    width: 60px;
+    height: 60px;
+    background: #23dac9;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+    transition: 0.3s;
+
+}
+.single-post:hover .date-time{
+	opacity: 0 ;
+	visibility: visible;
+}
 .post-img:before{
 	position: absolute;
 	content: "";
@@ -1122,7 +1154,7 @@ input.newsletter-field:focus {
 	015 - footer section
 ***********************************/
 .widget p{
-	color: #fff ;
+	color: #cdcdcd ;
 }
 footer.footer {
     background: #161616;
@@ -1172,7 +1204,7 @@ footer.footer {
     margin-top: 20px;
 }
 .footer-widget ul li a{
-	color: #fff ;
+    color: #cdcdcd;
 }
 .footer-widget ul li a:hover{
 	color: #23dac9;
@@ -1229,4 +1261,87 @@ div#toTop {
 }
 .widget {
     margin-bottom: 60px;
+}
+.footer-widget .socials {
+    padding-left: 0;
+}
+/*==================================
+016 - blog header
+==================================*/
+
+.header.blog-header{
+	background: url(../rev-2-img/blog/04_blog---Copy.jpg);
+}
+.banner {
+    padding: 100px 0 133px;
+}
+.rv2-blog-banner{
+	text-align: center;
+}
+.rv2-blog-banner h2.primary-title.rv2{
+	color: #fff ;
+}
+.rv2-blog-banner p{
+	color: #f3f3f3 ;
+}
+.rv2-blog-banner p a{
+	color: #23dac9;
+}
+/* blog post */
+.post-img.video:before{
+	content: none;
+}
+/*.video{
+    width: 100%; 
+    min-height: 280px;
+}
+.video iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+}*/
+.video {
+    width: 100%;
+    padding-bottom: 78%;
+    position: relative;
+}
+.video  iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+}
+
+/*pagination */
+.post-pagination{
+	text-align: center;
+}
+.post-pagination ul{
+	display: block;
+}
+
+.post-pagination li{
+	margin: 5px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #23dac9;
+	line-height: 40px;
+}
+.post-pagination li span,
+.post-pagination li.active a,
+.post-pagination li a:hover{
+	background: #23dac9;
+	color: #fff ;
+	display: block;
+}
+.post-pagination li a {
+	color: #707070;
 }

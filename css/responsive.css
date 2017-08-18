@@ -379,6 +379,9 @@
 
 
 /*home v2 */
+	.rv2 nav.navbar {
+	    padding-top: 0px;
+	}
 	.slider-text h3 {
 	    font-size: 30px;
 	}
@@ -418,6 +421,7 @@
 	.rv2-icon-1 i:before {
 	    font-size: 35px;
 	}
+	.single-post .title-3,
 	.single-event .title-3 {
 	    font-size: 17px;
 	    margin-bottom: 15px;
@@ -480,6 +484,11 @@
 	.newsletter-title {
 	    text-align: center;
 	    margin-bottom: 15px;
+	}
+	.post-pagination li {
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
 	}
 /* end home version 2*/
 }  /* end of (max-width: 767px) */
