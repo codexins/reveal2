@@ -13,7 +13,7 @@
 	<!-- Google Fonts
 	============================================ -->	
 	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster%7CMontserrat:400,700%7CRoboto:400,700" rel="stylesheet"> -->
-	<link href="https://fonts.googleapis.com/css?family=Lato%7CPoppins:400,500%7CRoboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CPoppins:400,500%7CRoboto" rel="stylesheet">
 	<!--[if IE]>
 		<link rel="stylesheet" type="text/css" href="css/ie.css" />
 	<![endif]-->
@@ -44,7 +44,7 @@
 	-->
 	<!--  Site Loader finished -->
 	<!-- header section start -->
-	<header class="header rv2 blog-header">
+	<header class="header rv2 blog-header mrg-b-50" >
 		<nav class="navbar" data-spy="affix" data-offset-top="150">
 			<div class="container">
 				<div class="row">
@@ -82,7 +82,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="rv2-blog-banner">
-							<h2 class="primary-title rv2">BLOG COLUMN 3 </h2>
+							<h2 class="primary-title rv2">BLOG POST </h2>
 							<p><a href="#">Home  </a>| Blog 3</p>
 						</div>
 					</div>
@@ -91,159 +91,162 @@
 		</div>
 		 <!-- end banner   -->
 	</header>  <!-- end of header -->
-
-	<!-- portfolio section  -->
-	<section id="portfolio_rv2" class="portfolios  rv2 mrg-50">
-		<div class="container">	
+	<div class="clearfix"></div>
+	<!-- letest post  -->
+	<section class="blog-post mrg-50 single-page">
+		<div class="container">
 			<div class="row">
-				<div class="portfolio-wrapper grid">
+				<div class="col-sm-12">
+					<div class="rv2-title left-align">
+						<h2 class="primary-title rv2"> BLOG post</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- section title  -->
+				<div class="col-sm-8">
+					<div class="single-post ">
+						<div class="post-img">
+							<img src="rev-2-img/blog/single_blog_post.jpg" alt="">
+							<p class="date-overimage">Date : <span class="post-date">19- JAN- 2017</span></p>
+						</div>
+						
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<blockquote>
+							<p>Making this the first true generator on the Internet. It uses a dictionary of 
+							over 200 Latin words, combined with a handful of model sentence.
+							</p>
+						</blockquote>
+						<p>Galley of type and scrambled it to make a type specimen book. It has survived not only five 
+						centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<ul>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+								<a href="#">Vivamus sit amet ipsum vitae sem condimentum porttitor quis</a></li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+								<a href="#">Morbi in erat lobortis, rutrum augue vel, pellentesque est.</a></li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+								<a href="#">Sed ac enim dapibus, efficitur leo et, varius dolor.</a></li>
+						</ul>
+					</div>
+					<div class="meta-info">
+						<div class="tag">
+						Tags : 
+							<a href="#"> Business</a>,
+							<a href="#">Inspiration</a>,
+							<a href="#">Project</a>
+						</div>
+						<div class="social-meta">
+							<a class="facebook" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a class="twitter" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+							<a class="google-plus" href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+							<a class="comment-number" href="#"><span>Comment:</span> 26</a>
+							<a class="likes" href="#"><span>Likes </span>250</a>
+						</div>	
+					</div>
+					<div class="author-post">
+						<div class="author-image">
+							<img src="rev-2-img/blog/author-image.jpg" alt="">
+						</div>
+						<div class="author-sayes">
+							<h3 class="title-3">Author Name</h3>
+							<div class="social-meta">
+								<a class="facebook" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+								<a class="twitter" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+								<a class="google-plus" href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+							</div>	
+							<p>Printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+							</p>
+							<div class="category">Category: <a href="#">Business</a></div>
+						</div>
+					</div>
+					<!-- Comments  area -->
+					<div class="comment-area">
+						<h1 class="comment-title">Comments</h1>
+						<ol class="comment-list">
+							<li>
+								<div class="comment-rv2">
+									<div class="commenter-image"><img src="rev-2-img/blog/blog_author_comment.png" alt=""></div>
+									<div class="comment-content">
+										<h3>Mathew Joseph </h3>
+										<span> Jan 22, 2017 at 7:50 am - </span>
+										<span class="reply"><a href="#"> reply </a></span>
+										<div class="comment-text">
+											<p>Scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="comment-rv2">
+									<div class="commenter-image"><img src="rev-2-img/blog/blog_author_comment2.png" alt=""></div>
+									<div class="comment-content">
+										<h3>Mariya Cliyo</h3>
+										<span>Jan 23, 2017 at 9:00 pm -</span>
+										<span class="reply"><a href="#"> reply </a></span>
+										<div class="comment-text">
+											<p>Scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+										</div>
+									</div>
+								</div>
+								<ul class="childrean">
+									<li>
+										<div class="comment-rv2">
+											<div class="commenter-image"><img src="rev-2-img/blog/blog_author_comment2.png" alt=""></div>
+											<div class="comment-content">
+												<h3>Mariya Cliyo</h3>
+												<span>Jan 23, 2017 at 9:00 pm -</span>
+												<span class="reply"><a href="#"> reply </a></span>
+												<div class="comment-text">
+													<p>Scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+												</div>
+											</div>
+										</div>
+										<ul class="childrean">
+									<li>
+										<div class="comment-rv2">
+											<div class="commenter-image"><img src="rev-2-img/blog/blog_author_comment2.png" alt=""></div>
+											<div class="comment-content">
+												<h3>Mariya Cliyo</h3>
+												<span>Jan 23, 2017 at 9:00 pm -</span>
+												<span class="reply"><a href="#"> reply </a></span>
+												<div class="comment-text">
+													<p>Scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</div><!-- Comments  area end -->
+					<div class="comment-form">
+						<h1>leave a Comment</h1>
+						<form action="#">
+							<div class="form-field half-wide">
+								<input type="text" name="username" placeholder="Neme">
+							</div>
+							<div class="form-field half-wide">
+								<input type="email" name="email" placeholder="email">
+							</div>
+							<div class="form-field full-wide">
+								<input type="url" name="email" placeholder="website">
+							</div>
+							<div class="form-field full-wide">
+								<textarea name="comment" id="" cols="30" rows="10"  placeholder="comment"></textarea>
+							</div>
+						</form>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
+				<div class="col-md-4 col-sm-4">
 
-					<div class="col-sm-4 col-xs-12  php laravel">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid-1.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid-1.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class=" col-sm-4 col-xs-12  python">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid2.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid2.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class=" col-sm-4 col-xs-12  laravel javascript">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid3.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid3.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class=" col-sm-4 col-xs-12  python php">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid5.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid5.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class=" col-sm-4 col-xs-12  laravel ruby">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid-4.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid-4.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class=" col-sm-4 col-xs-12  laravel ruby">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid6.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid6.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class=" col-sm-4 col-xs-12  laravel ruby">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid-7.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid-7.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class=" col-sm-4 col-xs-12  laravel ruby">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid9.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid9.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class=" col-sm-4 col-xs-12  laravel ruby">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid8.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid8.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					
-					<div class=" col-sm-4 col-xs-12  laravel ruby">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/blog/Portfolio-Grid10.jpg" alt="">
-							<a href="rev-2-img/blog/Portfolio-Grid10.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					
-				</div> <!-- end of portfolio-wrapper -->
+				</div>
 			</div> <!-- end of row -->
+			
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
-
 
 	<!-- footer section  -->
 	<footer class="footer">
