@@ -1719,18 +1719,18 @@ button.search-widget-icon {
     color: #707070;
     font-weight: 500;
 }
-.newsletter-form {
+.newsletter-form-widget{
     background: #23dac9;
     padding: 30px;
 }
-.newsletter-form input{
+.newsletter-form-widget input{
 	border-radius: 0 ;
 }
-.newsletter-form .submit-button:hover {
+.newsletter-form-widget .submit-button:hover {
     background: #fff;
     color: #000 ;
 }
-.newsletter-form .submit-button {
+.newsletter-form-widget .submit-button {
     background: #252525;
     font-weight: 500;
     text-transform: uppercase;

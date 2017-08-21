@@ -763,7 +763,7 @@
 				</div>
 				<div class="col-sm-6 contact-form-wrapper-rv2">
 					<div class="contact-form-position">
-						<form id="contact-form" class="contact-form" action="sendemail.php" method="post">	
+						<form id="contact-form" class="contact-form form-validate" action="sendemail.php" method="post">	
 							<div class="row">
 							  <div class="form-group col-sm-6">
 							    <label for="name" class="sr-only">Name</label>

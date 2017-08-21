@@ -272,7 +272,10 @@ $(function() {
 
 	});
 	    
-	$('#contact-form').validate({
+
+
+function form_validation(id_or_class){
+ 	$(id_or_class).validate({
 
         rules: {
             name: {
@@ -306,10 +309,11 @@ $(function() {
             element.after(error);
         }
 
-    });
+    });	
+}
 
- 
-
-
+form_validation('.newsletter-validatation');
+form_validation('.form-validatation');
+form_validation('.form-validate');
 
 });

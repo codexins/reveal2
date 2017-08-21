@@ -223,7 +223,7 @@
 					</div><!-- Comments  area end -->
 					<div class="comment-form">
 						<h1>leave a Comment</h1>
-						<form action="#">
+						<form action="#"  class="form-validatation">
 							<div class="form-field-grup ">
 								<div class="form-field half-wide">
 									<input type="text" name="username" placeholder="Neme" required>
@@ -250,7 +250,7 @@
 							<form action="#">
 								<div class="form-field-grup ">
 									<div class="form-field full-wide ">
-										<input type="text" name="username" placeholder="Neme" required>
+										<input type="text" name="name" placeholder="Neme" required>
 										<button class="search-widget-icon" type="submit"> <i class="fa fa-search" aria-hidden="true"></i></button>
 									</div>
 								</div>
@@ -310,10 +310,10 @@
 						</div>
 						<div class="sidebar-newsletter  mrg-b-60">	
 							<h3 class="title-3">Subscribe Newsletter</h3>
-							<div class="newsletter-form">	
-								<form action="#">
+							<div class="newsletter-form-widget">	
+							<form action="#" id="contact-form" class="newsletter-validatation">
 									<div class="form-field full-wide">
-										<input type="text" name="neme" placeholder="Name"  >
+										<input type="text" name="name" placeholder="Name"  >
 									</div>
 									<div class="form-field full-wide">
 										<input type="email" name="email" placeholder="Email"  >
