@@ -224,23 +224,108 @@
 					<div class="comment-form">
 						<h1>leave a Comment</h1>
 						<form action="#">
-							<div class="form-field half-wide">
-								<input type="text" name="username" placeholder="Neme">
-							</div>
-							<div class="form-field half-wide">
-								<input type="email" name="email" placeholder="email">
+							<div class="form-field-grup ">
+								<div class="form-field half-wide">
+									<input type="text" name="username" placeholder="Neme" required>
+								</div>
+								<div class="form-field half-wide">
+									<input type="email" name="email" placeholder="email" required>
+								</div>
 							</div>
 							<div class="form-field full-wide">
-								<input type="url" name="email" placeholder="website">
+								<input type="url" name="email" placeholder="website"  >
 							</div>
 							<div class="form-field full-wide">
-								<textarea name="comment" id="" cols="30" rows="10"  placeholder="comment"></textarea>
+								<textarea name="comment" id="" cols="30" rows="10"  placeholder="comment" required></textarea>
+							</div>
+							<div class="form-field">	
+								<input type="submit" class="submit-button" value="post your comment">
 							</div>
 						</form>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="col-md-4 col-sm-4">
-
+					<div class="sedebar-wraper">	
+						<div class="search-field mrg-b-70">
+							<form action="#">
+								<div class="form-field-grup ">
+									<div class="form-field full-wide ">
+										<input type="text" name="username" placeholder="Neme" required>
+										<button class="search-widget-icon" type="submit"> <i class="fa fa-search" aria-hidden="true"></i></button>
+									</div>
+								</div>
+							</form>		
+						</div>
+					</div>	
+					<div class="categories mrg-b-70">	
+						<h3 class="title-3">Categories </h3>
+						<ul>	
+							<li><a href="#">Business <span class="pull-right">	15</span> </a></li>
+							<li><a href="#">Health and personal care <span class="pull-right">12</span></a></li>
+							<li><a href="#">Secretarial schools <span class="pull-right">16</span></a></li>
+							<li><a href="#">Home audio<span class="pull-right">8</span></a></li>
+							<li><a href="#">Security and surveillance<span class="pull-right">10</span></a></li>
+							<li><a href="#">Digital content<span class="pull-right">06</span></a></li>
+						</ul>
+					</div>
+					<div class="featured mrg-b-60">
+						<h3 class="title-3">Featured News </h3>
+						<ul>
+							<li>
+								<div class="img-left">
+									<img src="rev-2-img/blog/fet.jpg" alt="">
+								</div>
+								<div class="blog-title-info">
+									<a href="#">19- JAN- 2017</a>
+									<h6><a href="#">Nullam at mauris pellentesque </a></h6>
+								</div>
+							</li>
+							<li>
+								<div class="img-left">
+									<img src="rev-2-img/blog/fet2.jpg" alt="">
+								</div>
+								<div class="blog-title-info">
+									<a href="#">19- JAN- 2017</a>
+									<h6><a href="#"> Mauris sodales estac pellentesque</a></h6>
+								</div>
+							</li>
+							<li>
+								<div class="img-left">
+									<img src="rev-2-img/blog/fit3.jpg" alt="">
+								</div>
+								<div class="blog-title-info">
+									<a href="#">19- JAN- 2017</a>
+									<h6><a href="#">Vestibulum lacinia pellentesque</a></h6>
+								</div>
+							</li>
+						</ul>
+					</div> <!-- end of footer-center -->		
+					<div class="tag-rv2  mrg-b-60">	
+						<h3 class="title-3">tag</h3>
+						<ul>	
+							<a href="#">Business  </a>
+							<a href="#">success  </a>
+							<a href="#">Client Meetings</a>
+							<a href="#">Charity </a>
+						</ul>
+					</div>
+					<div class="sidebar-newsletter  mrg-b-60">	
+						<h3 class="title-3">Subscribe Newsletter</h3>
+						<div class="newsletter-form">	
+							<form action="#">
+								<div class="form-field full-wide">
+									<input type="text" name="neme" placeholder="Name"  >
+								</div>
+								<div class="form-field full-wide">
+									<input type="email" name="email" placeholder="Email"  >
+								</div>
+								<div class="form-field full-wide mrg-0">
+									<input type="submit" name="submit" value="Subscribe" class="submit-button" >
+								</div>
+							</form>
+						</div>
+								
+					</div>	
 				</div>
 			</div> <!-- end of row -->
 			

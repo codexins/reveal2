@@ -38,6 +38,7 @@ INDEX:
 
 ==>>>single blog page  <<<==
 	18. single blog page 
+	19. sidebar  
 	
 
 
@@ -221,7 +222,7 @@ Creation date: 11/08/2017 09:26
 
 
 .mrg-0{
-	margin: 0 ;
+	margin: 0 !important;
 }
 .mrg-50{
 	margin-top: 50px;
@@ -1525,6 +1526,9 @@ a.likes{
     margin: 10px 0;
 }
 /*comment area css  */
+.comment-form {
+    margin-top: 80px;
+}
 .comment-title {
     font-size: 30px;
     font-weight: 800;
@@ -1581,8 +1585,11 @@ a.likes{
 	font-size: 30px;
 	color:#252525;
 }
+.form-field-grup .half-wide + .half-wide{
+	margin-left: 4%;
+}
 .half-wide{
-	width: 50% ;
+	width: 48% ;
 	float: left;
 }
 .full-wide{
@@ -1594,11 +1601,130 @@ a.likes{
 	border: 1px solid #e3e7ea ;
 	padding:20px;
 }
+.form-field input ,.form-field input,.form-field textarea{
+	border-radius: 5px;
+}
+
+.comment-form textarea:focus ,
+.comment-form input:focus {
+
+    outline: 1px solid #23dac9 ;
+}
+.form-field-grup {}
 .full-wide textarea{
 	width: 100%;
 	border: 1px solid #e3e7ea ;
 	padding:20px;
 }
+
 .form-field {
     margin-bottom: 25px;
+    overflow: hidden;
+}
+.form-field .submit-button {
+    padding: 10px 40px;
+    background: #23dac9;
+    border: 0;
+    color: #fff;
+    transition: 0.3s ;
+}
+.form-field .submit-button:hover {
+		background:#252525
+}
+/*====================
+	19. sidebar  
+====================*/
+.search-field .form-field {
+    position: relative;
+    margin-bottom: 0 ;
+}
+.mrg-b-70{
+	margin-bottom: 70px;
+}
+.mrg-b-60{
+	margin-bottom: 60px;
+}
+button.search-widget-icon {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    right: 15px;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+}
+.categories ul{}
+.categories ul li {
+    border-bottom: 1px solid #e3e7ea;
+}
+.categories ul li a {
+    color: #707070;
+    display: block;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+.categories ul li + li {
+    margin-top: 5px;
+}
+
+.featured .blog-title-info h6 a{
+	color: #252525 ;
+}
+.featured{
+	overflow: hidden;
+}
+.blog-title-info > a {
+    color: #707070;
+    display: block;
+}
+.featured ul li {
+	display: block;
+	overflow: hidden;
+}
+.featured ul li + li {
+	margin-top: 30px;
+}
+.featured .blog-title-info h6 a {
+    color: #252525;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.featured .img-left {
+    width: 140px;
+}
+.featured .blog-title-info {
+    width: calc(100% - 165px);
+}
+.tag-rv2 {
+    margin-bottom: 60px;
+}
+.tag-rv2 a{
+	padding: 15px 25px;
+	border:1px solid  #d9ddd7 ;
+}
+.tag-rv2 a {
+    padding: 15px 25px;
+    border: 1px solid #d9ddd7;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #707070;
+    font-weight: 500;
+}
+.newsletter-form {
+    background: #23dac9;
+    padding: 30px;
+}
+.newsletter-form input{
+	border-radius: 0 ;
+}
+.newsletter-form .submit-button:hover {
+    background: #fff;
+    color: #000 ;
+}
+.newsletter-form .submit-button {
+    background: #252525;
+    font-weight: 500;
+    text-transform: uppercase;
 }
