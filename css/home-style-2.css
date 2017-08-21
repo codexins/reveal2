@@ -1616,7 +1616,9 @@ a.likes{
 	border: 1px solid #e3e7ea ;
 	padding:20px;
 }
-
+.category a{
+	color: #707070;
+}
 .form-field {
     margin-bottom: 25px;
     overflow: hidden;
@@ -1634,6 +1636,9 @@ a.likes{
 /*====================
 	19. sidebar  
 ====================*/
+.categories ul li a:hover {
+    color: #23dac9;
+}
 .search-field .form-field {
     position: relative;
     margin-bottom: 0 ;
@@ -1692,9 +1697,11 @@ button.search-widget-icon {
 }
 .featured .img-left {
     width: 140px;
+    float: left;
 }
 .featured .blog-title-info {
     width: calc(100% - 165px);
+    float: left;
 }
 .tag-rv2 {
     margin-bottom: 60px;
