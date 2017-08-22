@@ -1675,9 +1675,7 @@ button.search-widget-icon {
 .featured .blog-title-info h6 a{
 	color: #252525 ;
 }
-.featured{
-	overflow: hidden;
-}
+
 .blog-title-info > a {
     color: #707070;
     display: block;
